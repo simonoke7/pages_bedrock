@@ -134,6 +134,10 @@ function renderStats() {
   const proceed  = allListings.filter(l => l.verdict === 'PROCEED').length;
   const marginal = allListings.filter(l => l.verdict === 'MARGINAL').length;
   const reject   = allListings.filter(l => l.verdict === 'REJECT').length;
+  const lastScrape = allListings.reduce((best, l) =>
+    l.date_scraped > (best || '') ? l.date_scraped : best, null);
+  document.getElementById('last-scrape').textContent =
+    lastScrape ? `Last scraped ${lastScrape}` : '';
   document.getElementById('stats-bar').innerHTML = `
     <div class="stat-chip">
       <span class="s-label">Screened</span>

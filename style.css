@@ -43,6 +43,12 @@ header .subtitle {
   letter-spacing: .08em;
 }
 
+header .last-scrape {
+  font-size: 11px;
+  color: #475569;
+  margin-top: 6px;
+}
+
 /* ── Stats bar ───────────────────────────────────────── */
 .stats-bar {
   background: var(--col-header-bg);
