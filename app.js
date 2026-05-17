@@ -40,7 +40,9 @@ function sortListings(list) {
     const sa = a.score ?? -1;
     const sb = b.score ?? -1;
     if (sb !== sa) return sb - sa;
-    return (b.date_scraped || '').localeCompare(a.date_scraped || '');
+    const ya = a.financials?.gross_yield_pct ?? -1;
+    const yb = b.financials?.gross_yield_pct ?? -1;
+    return yb - ya;
   });
 }
 
@@ -109,7 +111,6 @@ function renderActiveCard(l) {
     ${flagsBlock}
     ${nextStep}
     ${auctionBid}
-    <div class="card-footer">Scraped ${escHtml(l.date_scraped)}</div>
   </div>
 </article>`.trim();
 }
@@ -123,7 +124,6 @@ function renderRejectRow(l) {
     </div>
     <div class="reject-reason">${escHtml(l.reject_reason || '—')}</div>
   </div>
-  <div class="reject-date">${escHtml(l.date_scraped)}</div>
 </div>`.trim();
 }
 
@@ -136,7 +136,8 @@ function renderStats() {
   const reject   = allListings.filter(l => l.verdict === 'REJECT').length;
   const lastScrape = allListings.reduce((best, l) =>
     l.date_scraped > (best || '') ? l.date_scraped : best, null);
-
+  document.getElementById('last-scrape').textContent =
+    lastScrape ? `Last scraped ${lastScrape}` : '';
   document.getElementById('stats-bar').innerHTML = `
     <div class="stat-chip">
       <span class="s-label">Screened</span>
@@ -154,10 +155,6 @@ function renderStats() {
       <span class="s-label">Reject</span>
       <span class="s-value">${reject}</span>
     </div>
-    <div class="stat-last-scrape">
-      <span>Last scrape</span>
-      <strong>${escHtml(lastScrape || '—')}</strong>
-    </div>
   `;
 }
 
@@ -167,7 +164,6 @@ function getFilters() {
   return {
     verdict: document.getElementById('filter-verdict').value,
     asset:   document.getElementById('filter-asset').value,
-    date:    document.getElementById('filter-date').value,
   };
 }
 
@@ -176,7 +172,6 @@ function applyFilters() {
   filtered = allListings.filter(l => {
     if (f.verdict && l.verdict !== f.verdict) return false;
     if (f.asset   && (l.asset?.type || '') !== f.asset) return false;
-    if (f.date    && l.date_scraped !== f.date) return false;
     return true;
   });
   render();
@@ -194,16 +189,6 @@ function populateFilterOptions() {
     assetEl.appendChild(opt);
   });
 
-  const dates = [...new Set(
-    allListings.map(l => l.date_scraped).filter(Boolean)
-  )].sort().reverse();
-  const dateEl = document.getElementById('filter-date');
-  dates.forEach(d => {
-    const opt = document.createElement('option');
-    opt.value = d;
-    opt.textContent = d;
-    dateEl.appendChild(opt);
-  });
 }
 
 // ── Render ───────────────────────────────────────────────────────────────────
@@ -256,6 +241,5 @@ async function init() {
 
 document.getElementById('filter-verdict').addEventListener('change', applyFilters);
 document.getElementById('filter-asset').addEventListener('change', applyFilters);
-document.getElementById('filter-date').addEventListener('change', applyFilters);
 
 init();
