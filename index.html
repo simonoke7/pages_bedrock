@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bedrock — Deal Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bedrock</h1>
+    <p class="subtitle">CRE Deal Dashboard</p>
+  </header>
+
+  <div id="stats-bar" class="stats-bar"></div>
+
+  <div class="controls">
+    <div class="filters">
+      <label>
+        <span>Verdict</span>
+        <select id="filter-verdict">
+          <option value="">All verdicts</option>
+          <option value="PROCEED">PROCEED</option>
+          <option value="MARGINAL">MARGINAL</option>
+          <option value="REJECT">REJECT</option>
+        </select>
+      </label>
+      <label>
+        <span>Asset type</span>
+        <select id="filter-asset">
+          <option value="">All types</option>
+        </select>
+      </label>
+      <label>
+        <span>Date scraped</span>
+        <select id="filter-date">
+          <option value="">All dates</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <main id="main">
+    <section id="section-active">
+      <h2 id="active-heading">PROCEED / MARGINAL</h2>
+      <div id="cards-active" class="card-grid"></div>
+    </section>
+
+    <section id="section-reject">
+      <details id="reject-details">
+        <summary>
+          <span class="summary-chevron">▶</span>
+          <h2 id="reject-heading">REJECT</h2>
+        </summary>
+        <div id="cards-reject" class="reject-list"></div>
+      </details>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
