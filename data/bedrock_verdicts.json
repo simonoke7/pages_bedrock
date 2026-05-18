@@ -288,8 +288,8 @@
     "address": "42B & 42C Gloucester Road, Croydon, CR0",
     "url": "https://www.rightmove.co.uk/properties/168922670",
     "date_scraped": "2026-05-16",
-    "verdict": "PROCEED",
-    "score": 67,
+    "verdict": "MARGINAL",
+    "score": 60,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -297,10 +297,11 @@
     "asset": {
       "type": "Light Industrial",
       "tenure": "Freehold",
-      "size_sqft": null,
-      "epc": null,
+      "size_sqft": 3942,
+      "epc": "D (42B), E (42C)",
       "vat_elected": true,
-      "location_quality": "average"
+      "location_quality": "average",
+      "notes": "42B: 2,555 sq ft (2,390 GF + 165 mezzanine). 42C: 1,387 sq ft (1,170 GF + 217 mezzanine). Forecourt loading/limited parking. Steel portal frame construction."
     },
     "financials": {
       "asking_price": 400000,
@@ -317,26 +318,30 @@
       "inside_lt_act": false,
       "rent_review": null,
       "tenant_break": null,
-      "landlord_break": null
+      "landlord_break": null,
+      "notes": "42B: lease dated 17 Sep 2021, expires 16 Sep 2026. 42C: lease dated 11 Feb 2022, expires 10 Feb 2027. No rent reviews in either lease."
     },
     "tenant": {
       "name": "Twice Nice Ltd",
       "type": "local",
       "sector": "office furniture retail",
       "covenant_strength": "medium",
-      "notes": "Private SME with directors' personal sureties; 42B expires Sep 2026, 42C Feb 2027"
+      "notes": "Twice Nice Ltd, office furniture retailer (B8/Class E use). Directors personal sureties only \u2014 no balance sheet information. Both units to same tenant under separate leases."
     },
     "flags": [
-      "42B expires Sep 2026 \u2014 ~4 months residual",
-      "Multi-unit: management complexity for first-time buyer",
-      "SME tenant, directors' sureties only",
-      "VAT elected \u2014 SDLT and financing complexity",
-      "Seek lease renewal HoT for 42B before exchange"
+      "42B EXPIRES SEP 2026 \u2014 ~4 months residual; renewal negotiations must be underway or vacancy imminent",
+      "42C EXPIRES FEB 2027 \u2014 ~9 months residual",
+      "EPC E on 42C (123) \u2014 hard lender barrier; energy improvement works required before re-letting",
+      "EPC D on 42B (112) \u2014 marginal; some lenders may restrict",
+      "No rent reviews in either lease \u2014 rent frozen since 2021/2022",
+      "SME tenant with personal sureties only \u2014 no verified balance sheet",
+      "VAT applicable \u2014 confirm TOGC treatment",
+      "Multi-unit \u2014 management complexity; both to same tenant reduces diversification"
     ],
-    "next_step": "Obtain lease renewal heads of terms for 42B before proceeding. Negotiate price reduction if renewal not confirmed. Pass to DD skill if renewal secured.",
+    "next_step": "Establish urgently: (1) whether 42B renewal negotiations are underway and on what terms; (2) EPC improvement cost for 42C to reach minimum E/D; (3) lender appetite for EPC D/E industrial in CR0. Only proceed if 42B renewal is in advanced negotiation and EPC improvement capex is factored into price. Contact HNF Property: 020 8681 2000.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/168922670"
+    "information_complete": true,
+    "score_rationale": "Down from 67 (PROCEED to MARGINAL): EPC E on 42C (123) \u2014 hard lender barrier; will require energy improvement works before re-letting. 42B expires Sep 2026 (~4 months) with no renewal agreed at brochure date (Oct 2025). No rent reviews in either lease \u2014 rent frozen since 2021/2022. Retained at 60 not lower: FRI confirmed, contracted outside 1954 Act (both units), \u00a336k passing rent on freehold industrial, Croydon location with adequate industrial demand."
   },
   {
     "listing_id": "172621337",
@@ -564,55 +569,14 @@
     "address": "1-3 Crown Street, Brentwood, CM14 4AZ",
     "url": "https://www.rightmove.co.uk/properties/87362880",
     "date_scraped": "2026-05-17",
-    "verdict": "MARGINAL",
-    "score": 58,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/44fdecb29/87362880/44fdecb29979328aca094a6f595c7aab.jpeg",
-    "asset": {
-      "type": "Retail Property (high street)",
-      "tenure": "Freehold",
-      "size_sqft": 1137,
-      "epc": null,
-      "vat_elected": false,
-      "location_quality": "strong"
-    },
-    "financials": {
-      "asking_price": 340000,
-      "rent_pa": 25750,
-      "gross_yield_pct": 7.57,
-      "price_per_sqft": 299
-    },
-    "lease": {
-      "term_years": 5,
-      "start_date": "2023-07-01",
-      "expiry_date": "2028-07-01",
-      "residual_years": 2.2,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Ladbrokes Betting & Gaming Ltd (t/a Coral)",
-      "type": "national",
-      "sector": "betting / gaming",
-      "covenant_strength": "strong",
-      "notes": "Subsidiary of Entain PLC (FTSE 100); very strong covenant but betting use restricts re-letting pool"
-    },
-    "flags": [
-      "Lease expires Jul 2028 \u2014 only ~2.2yr residual",
-      "Betting shop use \u2014 very restricted re-letting pool if Coral vacates",
-      "L&T Act status not stated \u2014 renewal rights unclear",
-      "EPC not stated \u2014 confirm before proceeding",
-      "Lenders may apply higher rate or lower LTV for betting use"
-    ],
-    "next_step": "Establish L&T Act status and whether Coral intends to renew. Confirm lender appetite for betting shop use. Only proceed if renewal likely or price reflects void risk.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/87362880"
+    "reject_reason": "Tenant identified as Ladbrokes Betting & Gaming Ltd t/a Coral \u2014 betting/gambling use is an excluded use class under mandate. Sui generis use restricts re-letting pool to gambling operators only without planning change; lender pool restricted. Consistent with rejection of 153471992 (Kilburn Lane betting office). Strong Entain covenant does not override use class exclusion.",
+    "information_complete": true
   },
   {
     "listing_id": "169524482",
@@ -628,16 +592,17 @@
     "asset": {
       "type": "Light Industrial",
       "tenure": "Freehold",
-      "size_sqft": null,
+      "size_sqft": 1439,
       "epc": null,
-      "vat_elected": null,
-      "location_quality": "strong"
+      "vat_elected": true,
+      "location_quality": "strong",
+      "notes": "1,439 sq ft (729 GF + 710 FF). Class E flexible commercial. GF used for storage/testing, FF office with partitioned areas. Juliette balcony on FF. Tenant to clear and redecorate in neutral manner on lease expiry. DDA compliant WC. 3-phase electricity. Parking included."
     },
     "financials": {
       "asking_price": 375000,
       "rent_pa": 32500,
       "gross_yield_pct": 8.67,
-      "price_per_sqft": null
+      "price_per_sqft": 260
     },
     "lease": {
       "term_years": 3,
@@ -658,15 +623,15 @@
       "notes": "Global cycling/fitness platform, well-capitalised, recognisable brand"
     },
     "flags": [
-      "Tenant break Dec 2026 \u2014 effective residual ~7 months",
-      "VAT position not confirmed",
+      "BREAK CLAUSE DEC 2026 NOT DISCLOSED IN BROCHURE \u2014 confirm with agent whether waived or still live; this is the single most important question before proceeding",
       "L&T Act status not confirmed",
-      "Re-letting risk post-expiry or post-break"
+      "VAT confirmed elected \u2014 TOGC treatment required",
+      "Lease type (FRI/IRI) not stated in brochure \u2014 confirm repairing obligations",
+      "EPC not stated \u2014 obtain before proceeding"
     ],
-    "next_step": "Confirm VAT position, establish whether break has been triggered, check Merrow Business Park void history before proceeding.",
+    "next_step": "Call Kieran Morgan (07904377405) immediately: (1) confirm whether Dec 2026 break clause has been waived/non-exercise letter obtained; (2) confirm FRI or IRI; (3) obtain EPC. If break confirmed waived, upgrade to PROCEED. If break still live, 1.5yr effective residual only.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/169524482"
+    "information_complete": true
   },
   {
     "listing_id": "165327212",
@@ -674,16 +639,16 @@
     "url": "https://www.rightmove.co.uk/properties/165327212",
     "date_scraped": "2026-05-17",
     "verdict": "MARGINAL",
-    "score": 57,
+    "score": 62,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/e24474b0d/165327212/e24474b0d735f7de249d29f610ad3706.jpeg",
     "asset": {
       "type": "Retail Property (high street)",
-      "tenure": "Freehold (virtual)",
-      "size_sqft": null,
-      "epc": null,
+      "tenure": "Leasehold (virtual freehold, 966yr unexpired)",
+      "size_sqft": 788,
+      "epc": "C69",
       "vat_elected": null,
       "location_quality": "strong"
     },
@@ -691,7 +656,7 @@
       "asking_price": 260000,
       "rent_pa": 18500,
       "gross_yield_pct": 7.12,
-      "price_per_sqft": null
+      "price_per_sqft": 330
     },
     "lease": {
       "term_years": 10,
@@ -700,138 +665,58 @@
       "residual_years": 4.8,
       "type": "FRI",
       "inside_lt_act": true,
-      "rent_review": "2026 upward-only",
+      "rent_review": "Upwards only 2026 (confirm whether actioned)",
       "tenant_break": null,
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown",
-      "type": "unknown",
-      "sector": "retail (Class E)",
+      "name": "Hakiemie Rug Gallery",
+      "type": "local",
+      "sector": "Specialist rug/carpet retail",
       "covenant_strength": "unknown",
-      "notes": "Tenant not named; inside L&T Act provides statutory renewal rights; corner unit in affluent Weybridge"
+      "notes": "Independent single-site rug and carpet gallery. Well-presented specialist retailer. No balance sheet information available."
     },
     "flags": [
-      "Tenant unnamed \u2014 covenant unverifiable",
-      "Lease expires Mar 2031 \u2014 4.8yr residual",
-      "Inside L&T Act \u2014 tenant has statutory renewal rights",
-      "VAT may apply \u2014 confirm before proceeding",
-      "966yr leasehold \u2014 confirm lender appetite for virtual freehold"
+      "SME independent rug gallery \u2014 no verified covenant, no balance sheet",
+      "Specialist rug/carpet use \u2014 restricts re-letting pool vs general Class E",
+      "Rent review 2026 \u2014 confirm whether actioned and new passing rent established",
+      "4.8yr residual to Mar 2031 \u2014 inside L&T Act provides statutory renewal protection",
+      "VAT position ambiguous \u2014 brochure says may be charged; confirm before exchange",
+      "966yr leasehold \u2014 confirm lender appetite (most accept virtual freehold)",
+      "L&T Act inside \u2014 positive for income security; tenant has statutory renewal rights"
     ],
-    "next_step": "Identify tenant. Confirm VAT position. 4.8yr residual is short but L&T Act renewal rights provide downside protection. If tenant is established SME or above, pass to DD skill.",
+    "next_step": "Confirm 2026 rent review outcome with John Shaw (07808 896311, jshaw@curchodandco.com). Pull Hakiemie Rug Gallery from Companies House to verify trading history. Confirm VAT position and lender appetite for 966yr leasehold. If tenant accounts show viable trading, pass to DD skill.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/165327212"
+    "information_complete": true,
+    "score_rationale": "Up from 57: price confirmed \u00a3260,000 (not \u00a3275k as recorded) giving 7.12% gross \u2014 above mandate floor. FRI confirmed, EPC C(69), no break, inside L&T Act (statutory renewal rights protect income), upwards-only rent review 2026. Held at 62: SME independent rug gallery \u2014 specialist use restricts re-letting pool; covenant unverified. 4.8yr residual to Mar 2031."
   },
   {
     "listing_id": "171281573",
     "address": "Melbourn Street, Royston, Hertfordshire, SG8",
     "url": "https://www.rightmove.co.uk/properties/171281573",
     "date_scraped": "2026-05-17",
-    "verdict": "MARGINAL",
-    "score": 57,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/91060f9b7/171281573/91060f9b7db812c72af1fc556e61cc1d.jpeg",
-    "asset": {
-      "type": "Retail Property (high street)",
-      "tenure": "Unknown",
-      "size_sqft": 721,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "average"
-    },
-    "financials": {
-      "asking_price": 275000,
-      "rent_pa": 20625,
-      "gross_yield_pct": 7.5,
-      "price_per_sqft": 381
-    },
-    "lease": {
-      "term_years": 7,
-      "start_date": null,
-      "expiry_date": null,
-      "residual_years": null,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Unknown",
-      "type": "unknown",
-      "sector": "retail (Class E)",
-      "covenant_strength": "unknown",
-      "notes": "Tenant not named; 7yr lease in place; affluent Royston market town location"
-    },
-    "flags": [
-      "Tenant unnamed \u2014 covenant unverifiable",
-      "Lease start date and expiry not stated \u2014 residual unknown",
-      "Tenure not confirmed \u2014 freehold assumed but not stated",
-      "EPC not provided",
-      "Yield exactly at 7% mandate floor \u2014 no margin for error"
-    ],
-    "next_step": "Request full lease details, tenant name, and tenure confirmation. If freehold and tenant identifiable with verifiable trading history, reassess \u2014 location and yield are borderline acceptable.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/171281573"
+    "reject_reason": "Agent simultaneously marketing property to let with availability from December 2026 \u2014 tenant is leaving in ~7 months. Effectively near-vacant. The for-sale listing presented this as an investment with ongoing income; the dual marketing reveals the tenant is not renewing. No income security from acquisition.",
+    "information_complete": true
   },
   {
     "listing_id": "159094265",
     "address": "185-187 Wellington Road South, Hounslow, TW4 5HA",
     "url": "https://www.rightmove.co.uk/properties/159094265",
     "date_scraped": "2026-05-17",
-    "verdict": "MARGINAL",
-    "score": 56,
+    "verdict": "REJECT",
+    "score": null,
     "auction": true,
     "auction_date": null,
     "auction_max_bid": 300000,
     "image_url": "https://media.rightmove.co.uk/property-photo/812e4322a/159094265/812e4322a86952c421eb9d6023fe932c.jpeg",
-    "asset": {
-      "type": "Retail Property (high street)",
-      "tenure": "Freehold",
-      "size_sqft": 834,
-      "epc": "C",
-      "vat_elected": null,
-      "location_quality": "average"
-    },
-    "financials": {
-      "asking_price": 300000,
-      "rent_pa": 24000,
-      "gross_yield_pct": 8.0,
-      "price_per_sqft": 360
-    },
-    "lease": {
-      "term_years": 7,
-      "start_date": "2024-02-01",
-      "expiry_date": "2031-02-01",
-      "residual_years": 4.7,
-      "type": "Unknown",
-      "inside_lt_act": true,
-      "rent_review": "Feb 2031",
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Unknown convenience store",
-      "type": "unknown",
-      "sector": "convenience retail",
-      "covenant_strength": "unknown",
-      "notes": "Tenant not named in listing; covenant unverifiable without further enquiry"
-    },
-    "flags": [
-      "Auction \u2014 guide price \u00a3300k equals max bid at 8% yield floor; no headroom",
-      "Tenant unnamed \u2014 covenant unknown",
-      "Inside L&T Act \u2014 tenant has statutory renewal rights",
-      "FRI/IRI terms not confirmed",
-      "VAT position not stated"
-    ],
-    "next_step": "Identify tenant before bidding. Review legal pack. Do not exceed \u00a3300,000 bid. Only proceed if tenant is identifiable with verifiable trading history.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/159094265"
+    "reject_reason": "Auction starting bid \u00a3330,000 exceeds mandate max bid of \u00a3300,000 (yield floor 8%). At \u00a3330k starting bid yield is 7.27% \u2014 below the 8% target and barely above the 7% floor. Original record already flagged \u00a3300k as absolute maximum. Tenant identified as Bajaj Superstore (off-licence/grocer SME, unknown covenant). Agent has not inspected the property.",
+    "information_complete": true
   },
   {
     "listing_id": "174436244",
@@ -839,7 +724,7 @@
     "url": "https://www.rightmove.co.uk/properties/174436244",
     "date_scraped": "2026-05-17",
     "verdict": "MARGINAL",
-    "score": 56,
+    "score": 49,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -847,46 +732,48 @@
     "asset": {
       "type": "Retail Property (high street)",
       "tenure": "Unknown",
-      "size_sqft": null,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "strong"
+      "size_sqft": 1016,
+      "epc": "D99",
+      "vat_elected": false,
+      "location_quality": "strong",
+      "notes": "1,016 sq ft (729 sales + 287 rear ancillary). Freehold title K632977. Garage within block + rear parking included. Upper parts: 125yr lease from Mar 1987 at \u00a350pa ground rent. No formal service charge. Long-leaseholder responsible for upper parts repair."
     },
     "financials": {
       "asking_price": 250000,
-      "rent_pa": 19000,
+      "rent_pa": 19050,
       "gross_yield_pct": 7.6,
-      "price_per_sqft": null
+      "price_per_sqft": 246
     },
     "lease": {
       "term_years": null,
-      "start_date": null,
-      "expiry_date": "2028-03-01",
+      "start_date": "2013-03-15",
+      "expiry_date": "2028-03-14",
       "residual_years": 1.8,
-      "type": "Unknown",
+      "type": "FRI",
       "inside_lt_act": null,
       "rent_review": null,
       "tenant_break": null,
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown (in occupation since 2013)",
-      "type": "unknown",
-      "sector": "retail",
-      "covenant_strength": "unknown",
-      "notes": "12 years continuous occupation is positive signal; tenant unnamed; affluent Westerham high street"
+      "name": "Private individual t/a All About U",
+      "type": "sole-trader",
+      "sector": "Beauty boutique",
+      "covenant_strength": "weak",
+      "notes": "Sole trader \u2014 private individual, no company structure, no Companies House filing, no directors guarantee. In occupation since 2013 (12yr track record). No balance sheet available."
     },
     "flags": [
-      "Lease expires Mar 2028 \u2014 only ~1.8yr residual",
-      "Tenant unnamed \u2014 covenant unverifiable",
-      "Tenure not confirmed \u2014 freehold assumed",
-      "L&T Act and FRI status not stated",
-      "Re-letting risk if tenant does not renew"
+      "SOLE TRADER tenant \u2014 weakest possible covenant; personal insolvency risk, no corporate backstop",
+      "1.8yr residual to Mar 2028 \u2014 re-letting risk imminent",
+      "EPC D(99) \u2014 bottom of band D, close to E; lenders may restrict and improvement works needed before re-letting",
+      "No rent review stated in 15yr lease \u2014 passing rent likely below market after 12yr occupation",
+      "L&T Act status not stated \u2014 confirm whether tenant has statutory renewal rights",
+      "Beauty boutique use \u2014 specialist fit-out restricts re-letting pool"
     ],
-    "next_step": "Identify tenant and establish renewal intentions. 12yr occupation history is positive \u2014 if tenant signals renewal, negotiate price reduction to reflect short residual. Confirm tenure and FRI terms.",
+    "next_step": "Confirm L&T Act status with Thomas Tarn (07943 579296, SHW). Pull EPC improvement cost estimate to reach C. Check current Westerham High Street retail rents to assess reversionary position. Only proceed if EPC improvement capex is modest and L&T Act inside (statutory renewal rights). Contact SHW: 01732 606 100.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/174436244"
+    "information_complete": true,
+    "score_rationale": "Down from 56: tenant confirmed as private individual (sole trader) t/a All About U \u2014 weakest possible covenant, no company structure, no balance sheet. EPC D(99) \u2014 bottom of band D, close to E, will restrict lenders and require improvement works. 1.8yr residual to Mar 2028 with no rent review stated in 15yr lease. Partially offset by 12yr track record at premises, FRI confirmed, no VAT, garage/parking, Westerham affluent location."
   },
   {
     "listing_id": "707826127848577",
@@ -905,13 +792,15 @@
       "size_sqft": 1475,
       "epc": "B",
       "vat_elected": true,
-      "location_quality": "strong"
+      "location_quality": "strong",
+      "notes": "Highpoint Village mixed-use development by Ballymore Group. Adjacent to Hayes & Harlington Elizabeth Line station (20 mins Central London). 1,475 sq ft. Tenant responsible for business rates AND service charge under lease terms \u2014 no landlord service charge liability."
     },
     "financials": {
       "asking_price": 370000,
       "rent_pa": 29500,
       "gross_yield_pct": 7.97,
-      "price_per_sqft": 251
+      "price_per_sqft": 251,
+      "niy_pct": 7.69
     },
     "lease": {
       "term_years": 20,
@@ -936,12 +825,12 @@
       "VAT applicable \u2014 TOGC or VAT registration required on purchase",
       "Nursery/specialist use \u2014 restricts lender pool and re-letting optionality",
       "If break not exercised: 4 months rent-free cost to landlord (~\u00a39,833)",
-      "Service charge \u00a31,622pa \u2014 confirm tenant liability under lease"
+      "Tenant pays business rates and service charge \u2014 no landlord service charge liability (positive)",
+      "Brochure dated 12 May 2026 \u2014 break 11 months away, no non-exercise confirmation obtained"
     ],
     "next_step": "Establish whether Kiddiecare intends to exercise break. Only proceed if written confirmation of non-exercise obtained, or price negotiated to reflect near-term vacancy risk.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/707826127848577"
+    "information_complete": true
   },
   {
     "listing_id": "88226094",
@@ -959,7 +848,7 @@
       "tenure": "Freehold",
       "size_sqft": 1200,
       "epc": null,
-      "vat_elected": null,
+      "vat_elected": false,
       "location_quality": "average"
     },
     "financials": {
@@ -980,22 +869,22 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown convenience store operator",
+      "name": "Swanley Express (trading name, no legal entity disclosed)",
       "type": "unknown",
       "sector": "convenience retail",
       "covenant_strength": "unknown",
       "notes": "Wrap lease covers ground floor commercial and 1-bed flat above; tenant renovating flat"
     },
     "flags": [
-      "Residential flat included in wrap lease \u2014 mixed-use will restrict lender pool",
-      "Tenant unnamed \u2014 covenant unverifiable",
-      "Tenant break yr10 (~2035) \u2014 long enough for stability",
-      "VAT position not stated",
+      "Residential flat in wrap lease \u2014 restricts lender pool",
+      "Tenant unnamed (Swanley Express trading name only) \u2014 covenant unverifiable",
+      "Flat currently gut-renovated by tenant \u2014 confirm works obligation under lease",
+      "Tenant break yr10 (2035) \u2014 main risk event",
       "L&T Act status not stated"
     ],
-    "next_step": "Identify tenant and confirm lender appetite for mixed-use with residential. If a commercial lender will lend at 65%+ LTV, the yield and lease term justify further investigation.",
+    "next_step": "Obtain legal entity name behind Swanley Express fascia. Confirm lender appetite for mixed-use with residential wrap lease. Only proceed if commercial lender will fund at 65%+ LTV.",
     "reject_reason": null,
-    "information_complete": false,
+    "information_complete": true,
     "brochure_url": "https://www.rightmove.co.uk/properties/88226094"
   },
   {
@@ -1004,7 +893,7 @@
     "url": "https://www.rightmove.co.uk/properties/162090398",
     "date_scraped": "2026-05-17",
     "verdict": "MARGINAL",
-    "score": 54,
+    "score": 53,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -1035,21 +924,23 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown individual",
+      "name": "Al Jazeera (individual lessee \u2014 sole trader, no company disclosed)",
       "type": "sole-trader",
-      "sector": "retail (Class E)",
+      "sector": "fish & meat retail (specialist food)",
       "covenant_strength": "weak",
-      "notes": "Individual tenant \u2014 no company structure, no verifiable balance sheet"
+      "notes": "Individual lessee trading as Al Jazeera fish/meat market; sole trader, no company covenant; \u00a36,125 deposit held"
     },
     "flags": [
       "Sole trader tenant \u2014 no company covenant, weakest possible credit",
-      "Tenant break Aug 2030 (~4.3yrs) \u2014 effective exposure at break",
-      "999yr leasehold \u2014 virtual freehold but confirm lender appetite",
-      "L&T Act status not stated"
+      "Tenant break Aug 2030 (~4.3yrs) \u2014 RPI review same date incentivises break",
+      "Fish/meat specialist use \u2014 restricts re-letting pool post-break",
+      "999yr leasehold \u2014 virtual freehold, confirm lender appetite",
+      "L&T Act status not stated",
+      "Yield exactly at 7% floor \u2014 no ICR headroom"
     ],
-    "next_step": "Identify tenant and assess trading history. Only proceed if tenant can provide directors guarantee or rent deposit is increased. Yield is at the absolute floor \u2014 no margin for error.",
+    "next_step": "Identify if individual has a company vehicle; seek increased rent deposit or personal guarantor. Negotiate price to \u00a3325k to create yield headroom. Only proceed with enhanced security.",
     "reject_reason": null,
-    "information_complete": false,
+    "information_complete": true,
     "brochure_url": "https://www.rightmove.co.uk/properties/162090398"
   },
   {
@@ -1057,110 +948,26 @@
     "address": "27 Walthamstow Business Centre, Clifford Road, London, E17 4SX",
     "url": "https://www.rightmove.co.uk/properties/88368834",
     "date_scraped": "2026-05-16",
-    "verdict": "MARGINAL",
-    "score": 54,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/01dd1618b/88368834/01dd1618bb22af2609f327af877f624f.jpeg",
-    "asset": {
-      "type": "Warehouse",
-      "tenure": "Freehold",
-      "size_sqft": null,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "average"
-    },
-    "financials": {
-      "asking_price": 375000,
-      "rent_pa": 24000,
-      "gross_yield_pct": 6.4,
-      "price_per_sqft": null
-    },
-    "lease": {
-      "term_years": 10,
-      "start_date": "2019-06-01",
-      "expiry_date": "2029-06-01",
-      "residual_years": 3.1,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Wah Gwan Foods Import UK Limited",
-      "type": "local",
-      "sector": "food import",
-      "covenant_strength": "weak",
-      "notes": "Small food importer, SME, unknown balance sheet"
-    },
-    "flags": [
-      "Yield 6.4% \u2014 below 7% mandate floor, tight on ICR",
-      "SME tenant \u2014 covenant unverified",
-      "L&T Act status not confirmed",
-      "VAT position not confirmed"
-    ],
-    "next_step": "Only proceed if leveraged yield on equity clears 8% after modelling debt service. Confirm L&T Act status and pull tenant accounts from Companies House.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/88368834"
+    "reject_reason": "Yield 6.4% below 7% mandate floor; fascia reads Yam-Man Ltd vs lease to Wah Gwan Foods Import UK Ltd \u2014 potential unauthorised occupier/assignment issue",
+    "information_complete": true
   },
   {
     "listing_id": "171315452",
-    "address": "Coggeshall Road, Braintree, CM7",
+    "address": "16 & 16A Coggeshall Road, Braintree, CM7 9BY",
     "url": "https://www.rightmove.co.uk/properties/171315452",
     "date_scraped": "2026-05-17",
-    "verdict": "MARGINAL",
-    "score": 52,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/f1159076f/171315452/f1159076f82035272c0779700066f7f9.jpeg",
-    "asset": {
-      "type": "Mixed Use",
-      "tenure": "Freehold",
-      "size_sqft": 1358,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "average"
-    },
-    "financials": {
-      "asking_price": 340000,
-      "rent_pa": 25900,
-      "gross_yield_pct": 7.62,
-      "price_per_sqft": 250
-    },
-    "lease": {
-      "term_years": null,
-      "start_date": null,
-      "expiry_date": null,
-      "residual_years": null,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "3 tenants: barbers, beauty, office (all unnamed)",
-      "type": "local",
-      "sector": "mixed: beauty / office",
-      "covenant_strength": "weak",
-      "notes": "Recently commenced leases; no tenant names or lease terms disclosed; historically barbers 40+ years"
-    },
-    "flags": [
-      "3 tenants unnamed \u2014 covenant unverifiable",
-      "No individual lease terms stated \u2014 residual and break unknown",
-      "Multi-let adds management complexity for first-time buyer",
-      "Pending D1 planning application creates uncertainty",
-      "Barbers/beauty use limits re-letting pool",
-      "VAT and L&T Act status unknown"
-    ],
-    "next_step": "Request full tenancy schedule with lease terms, tenant names and rent per floor. Only proceed if leases are FRI with minimum 5yr residual on each. Multi-let complexity is high for first-time buyer.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/171315452"
+    "reject_reason": "EPC E \u2014 hard lender reject; no lease terms disclosed for any of three tenants; pending D1 planning application creates title uncertainty; multi-tenanted SME barbers/beauty/office with no covenant information",
+    "information_complete": true
   },
   {
     "listing_id": "167633084",
@@ -4126,7 +3933,7 @@
     "url": "https://www.rightmove.co.uk/properties/166110917",
     "date_scraped": "2026-05-18",
     "verdict": "MARGINAL",
-    "score": 55,
+    "score": 48,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -4136,20 +3943,22 @@
       "size_sqft": null,
       "epc": null,
       "vat_elected": false,
-      "location_quality": "average"
+      "location_quality": "average",
+      "notes": "2 ground floor retail units (IRI leases) + 4 first-floor studios (beauty/office/gym). Ground: 7 Botanic Rd (\u00a39k, 35sqm) + 7c Botanic Rd (\u00a36.6k, 23sqm). FF: Studio 1 beauty \u00a36,540 (14sqm), Studio 2 beauty \u00a34,440 (7.5sqm), Studio 3 beauty \u00a35,364 (12sqm), Studio 4 gym \u00a37,764 (50sqm). Communal shower/WC on FF. Gym fixtures belong to landlord and included in sale. FF rents inclusive of landlord costs (~\u00a35,000pa utilities/maintenance)."
     },
     "financials": {
       "asking_price": 380000,
       "rent_pa": 39668,
       "gross_yield_pct": 10.44,
-      "price_per_sqft": null
+      "price_per_sqft": null,
+      "notes": "Net yield ~9.12% after ~\u00a35,000pa landlord FF outgoings. Ground floor rents concessionary per agent \u2014 reversionary upside claimed but unverified."
     },
     "lease": {
       "term_years": 3,
       "start_date": null,
       "expiry_date": null,
       "residual_years": null,
-      "type": "Unknown",
+      "type": "IRI (ground floor); unknown (first floor studios)",
       "inside_lt_act": null,
       "rent_review": null,
       "tenant_break": null,
@@ -4160,20 +3969,23 @@
       "type": "local",
       "sector": "retail/beauty/fitness",
       "covenant_strength": "weak",
-      "notes": "Two ground floor retail units at \u00a36,600 and \u00a39,000pa; four first-floor studios; all individual operators, no company structure stated"
+      "notes": "6 tenants total. Ground floor: 2 unnamed retail tenants on 3yr IRI leases. FF: 4 unnamed studio occupiers (beauty x3, gym/PT x1). No lease start/expiry dates stated for any unit. No tenant names disclosed."
     },
     "flags": [
-      "6 tenants \u2014 high management complexity for first-time buyer",
-      "All individual/SME operators \u2014 weakest possible covenant",
-      "3yr lease terms, expiry dates not stated",
-      "Two additional long leasehold titles add structural complexity",
-      "Cross-invoicing arrangement between retail units"
+      "GYM (Studio 4) is leisure use \u2014 excluded class under mandate; restricts lender pool significantly",
+      "Ground floor leases IRI not FRI \u2014 landlord retains external/structural repair obligations",
+      "No lease terms stated for ANY of 6 tenants \u2014 residuals entirely unknown",
+      "All 6 tenants unnamed \u2014 covenants entirely unverifiable",
+      "Net yield ~9.12% after landlord FF outgoings of ~\u00a35,000pa",
+      "EPC not provided \u2014 available on request only",
+      "Multi-tenanted (6 units) \u2014 higher management complexity for first-time buyer",
+      "L&T Act status not stated for any unit"
     ],
-    "next_step": "Identify all tenants and confirm lease expiry dates. Only proceed if at least ground floor tenants can provide company guarantees. Confirm lender appetite for multi-let mixed use.",
+    "next_step": "Confirm lender appetite for multi-let with gym use before proceeding. Obtain tenancy schedule with names, start dates, expiry dates for all 6 leases. Obtain EPC. Contact Fitton Estates: 01704 500345. Only proceed if lender confirms standard terms and majority of tenants have verifiable lease security >2yr.",
     "reject_reason": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/387622da9/166110917/387622da9e4d9243073a1784227ff6b7.jpeg",
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/166110917"
+    "information_complete": true,
+    "score_rationale": "Down from 55: ground floor leases confirmed IRI (not FRI) \u2014 landlord retains external/structural repair. Gym (Studio 4, 50sqm) is leisure use \u2014 excluded class under mandate, restricts lender pool. Net yield ~9.12% (not 10.44% gross) after \u00a35,000pa landlord outgoings on FF. No lease terms stated for any of 6 tenants \u2014 residuals entirely unknown. Price revised to \u00a3380k (minor positive). VAT not applicable confirmed."
   },
   {
     "listing_id": "749348336584336",
@@ -6316,55 +6128,13 @@
     "address": "21 & 21A Church Street, Blackpool, FY1",
     "url": "https://www.rightmove.co.uk/properties/140303240",
     "date_scraped": "2026-05-18",
-    "verdict": "MARGINAL",
-    "score": 52,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/84105f9d3/140303240/84105f9d32bc3cc5563b54a8d1177b1a.jpeg",
-    "asset": {
-      "type": "Retail Property (high street)",
-      "tenure": "Freehold",
-      "size_sqft": null,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "average"
-    },
-    "financials": {
-      "asking_price": 306000,
-      "rent_pa": 25000,
-      "gross_yield_pct": 8.17,
-      "price_per_sqft": null
-    },
-    "lease": {
-      "term_years": null,
-      "start_date": null,
-      "expiry_date": null,
-      "residual_years": null,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Pound store (unnamed)",
-      "type": "unknown",
-      "sector": "discount retail",
-      "covenant_strength": "unknown",
-      "notes": "Ground floor let to established pound store business; no lease term or expiry stated"
-    },
-    "flags": [
-      "No lease term or expiry stated \u2014 residual unknown",
-      "Tenant unnamed \u2014 covenant unverifiable",
-      "Upper floors separately accessed with former restaurant use",
-      "Blackpool location \u2014 weak occupier demand",
-      "VAT position not stated"
-    ],
-    "next_step": "Obtain full lease particulars (term, expiry, FRI/IRI, tenant name). Only proceed if residual >3yr and tenant is identifiable national/regional operator.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/140303240"
+    "reject_reason": "Lease term/expiry/FRI terms wholly undisclosed; upper floors vacant ex-restaurant with visible dilapidation generating no income; pound store tenant unnamed; Blackpool weak retail investment market with lender caution",
+    "information_complete": true
   },
   {
     "listing_id": "171196394",
@@ -6465,7 +6235,7 @@
       "type": "Retail Property (high street)",
       "tenure": "Freehold",
       "size_sqft": 1520,
-      "epc": null,
+      "epc": "C53",
       "vat_elected": null,
       "location_quality": "strong"
     },
@@ -6473,7 +6243,8 @@
       "asking_price": 300000,
       "rent_pa": 20000,
       "gross_yield_pct": 6.67,
-      "price_per_sqft": 197
+      "price_per_sqft": 197,
+      "niy_pct": 6.45
     },
     "lease": {
       "term_years": 5,
@@ -6497,13 +6268,13 @@
       "Yield 6.67% below 7% mandate floor \u2014 only passes at \u00a3285,000 or below",
       "4.5yr residual to expiry Nov 2030",
       "No rent review stated in 5yr lease",
-      "EPC not stated \u2014 confirm before proceeding",
-      "L&T Act status not stated"
+      "L&T Act status not stated",
+      "No rent review in 5yr lease \u2014 no income growth mechanism over the term",
+      "VAT position ambiguous \u2014 brochure says charges may be applicable; confirm before exchange"
     ],
     "next_step": "Negotiate price to \u00a3280,000\u2013\u00a3285,000 to achieve 7%+ yield. Confirm EPC and L&T Act status. Strong covenant justifies consideration at right price.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/743143738228577"
+    "information_complete": true
   },
   {
     "listing_id": "170097959",
@@ -7019,9 +6790,10 @@
       "type": "Office",
       "tenure": "Freehold",
       "size_sqft": 1899,
-      "epc": "C",
+      "epc": "C72",
       "vat_elected": null,
-      "location_quality": "average"
+      "location_quality": "average",
+      "notes": "Two storey hybrid office unit. Ground 936 sq ft + First 965 sq ft. Air conditioning, LED lighting, suspended ceilings. Several car parking spaces demised to unit. Semi-rural business park 3 miles north of Chesterfield town centre."
     },
     "financials": {
       "asking_price": 275000,
@@ -7052,12 +6824,12 @@
       "Semi-rural business park location \u2014 limited alternative demand",
       "Rent review also Dec 2026 \u2014 coincides with break decision",
       "VAT position not stated",
-      "EPC C \u2014 acceptable"
+      "Brochure dated March 2026 \u2014 still marketing 9 months before break with no non-exercise confirmation obtained; vendor has not secured tenant commitment",
+      "VAT position not stated \u2014 confirm with agent"
     ],
     "next_step": "Contact agent to establish if NFU Mutual has indicated intent re break. If break waived or confirmed non-exercise, upgrade to PROCEED. Only proceed if written non-exercise obtained.",
     "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/743556608939872"
+    "information_complete": true
   },
   {
     "listing_id": "740645017330960",
@@ -7568,55 +7340,13 @@
     "address": "Railway House, Station Street, Meltham, West Yorkshire, HD9 5NX",
     "url": "https://www.rightmove.co.uk/properties/742088902380401",
     "date_scraped": "2026-05-18",
-    "verdict": "MARGINAL",
-    "score": 52,
+    "verdict": "REJECT",
+    "score": null,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/c67098c73/742088902380401/c67098c73e04e01ada1d511fb34efb03.jpeg",
-    "asset": {
-      "type": "Office",
-      "tenure": "Unknown",
-      "size_sqft": 3170,
-      "epc": "D",
-      "vat_elected": null,
-      "location_quality": "weak"
-    },
-    "financials": {
-      "asking_price": 250000,
-      "rent_pa": 25702,
-      "gross_yield_pct": 10.28,
-      "price_per_sqft": 79
-    },
-    "lease": {
-      "term_years": null,
-      "start_date": null,
-      "expiry_date": null,
-      "residual_years": null,
-      "type": "Unknown",
-      "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
-      "landlord_break": null
-    },
-    "tenant": {
-      "name": "Multiple unnamed tenants",
-      "type": "unknown",
-      "sector": "office",
-      "covenant_strength": "unknown",
-      "notes": "Multi-occupied offices; only half building (1,616/3,170 sqft) tenanted; attic unlet"
-    },
-    "flags": [
-      "No lease terms or tenant names stated \u2014 covenant unverifiable",
-      "Only 51% of building tenanted \u2014 significant void risk",
-      "EPC D \u2014 confirm lender minimum C risk",
-      "Rural village location \u2014 limited alternative demand",
-      "Tenure not confirmed"
-    ],
-    "next_step": "Obtain tenancy schedule with names, lease terms and expiry dates. Confirm tenure. Only proceed if major tenants are identifiable businesses with leases >3yr.",
-    "reject_reason": null,
-    "information_complete": false,
-    "brochure_url": "https://www.rightmove.co.uk/properties/742088902380401"
+    "reject_reason": "Inclusive rents inflate headline yield \u2014 true net yield unknown; majority of leases expire within 3 years; 11-suite multi-tenanted village office wholly unsuitable for first-time buyer; weak Meltham occupier pool",
+    "information_complete": true
   },
   {
     "listing_id": "170865125",
