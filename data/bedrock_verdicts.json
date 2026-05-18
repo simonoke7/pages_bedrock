@@ -53,7 +53,8 @@
     ],
     "next_step": "Confirm: (1) whether Jan 2026 rent review concluded and new passing rent; (2) actual sale price if acquired at auction; (3) EPC rating; (4) L&T Act status. Contact Steven Grossman or Elliott Greene (auctioneers). Pull Home Depot Pound Saver Ltd accounts from Companies House.",
     "reject_reason": null,
-    "score_rationale": "Down from 76: tenant identified as Home Depot Pound Saver Ltd t/a Local Discount Store \u2014 3-branch SME discount retailer with personal guarantor only. Covenant is weak not medium as assumed. Auction lot (guide \u00a3260k+, \u00a31,500 admin fee). Rent review Jan 2026 not yet actioned at time of brochure \u2014 status unknown. Held at 68: FRI confirmed, no breaks, 7.6yr residual to Jan 2034, no VAT, \u00a310k deposit, strong Cheshunt location offset the weak covenant. Below Maldon (71, weak tenant with personal guarantee but longer residual) and Leeds (70, stronger Zenzero covenant)."
+    "score_rationale": "Down from 76: tenant identified as Home Depot Pound Saver Ltd t/a Local Discount Store \u2014 3-branch SME discount retailer with personal guarantor only. Covenant is weak not medium as assumed. Auction lot (guide \u00a3260k+, \u00a31,500 admin fee). Rent review Jan 2026 not yet actioned at time of brochure \u2014 status unknown. Held at 68: FRI confirmed, no breaks, 7.6yr residual to Jan 2034, no VAT, \u00a310k deposit, strong Cheshunt location offset the weak covenant. Below Maldon (71, weak tenant with personal guarantee but longer residual) and Leeds (70, stronger Zenzero covenant).",
+    "information_complete": true
   },
   {
     "listing_id": "174362429",
@@ -112,7 +113,8 @@
       "Current passing rent \u00a322,000 \u2014 confirm stepped rent schedule and amounts"
     ],
     "next_step": "Identify and verify Cloud 9 Beauty (Companies House search). Confirm reversionary lease is fully executed \u2014 this is critical. Obtain stepped rent schedule. Confirm TOGC VAT treatment. Check lender appetite for 999yr virtual freehold in SE1. Contact Strettons: Finlay Milnes (07791 744289) or Sean Crowhurst (07791 849470).",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "168956270",
@@ -171,7 +173,8 @@
       "Flat 23a ground rent \u00a3113pa \u2014 confirm no freeholder obligations under lease"
     ],
     "next_step": "Identify tenant and obtain company/personal details. Confirm price with Carr & Priddle (Simon Thetford, 07851 246805). Obtain EPC. Stress test void scenario at Oct 2030 break in Brighton retail market. If tenant is identifiable with trading history, pass to DD skill.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "738087697705712",
@@ -222,7 +225,8 @@
       "Covenant medium not strong \u2014 verify trading history"
     ],
     "next_step": "Verify Rawling & Sons trading history and accounts. Confirm TOGC VAT treatment with solicitor. Pass to DD skill.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "741499847910752",
@@ -276,7 +280,8 @@
       "EPC not available \u2014 confirm before proceeding"
     ],
     "next_step": "Pull Duck Nail Studio Ltd accounts from Companies House. Confirm L&T Act status and EPC rating. Stress test void scenario at break. Pass to DD skill if accounts show viable trading.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "168922670",
@@ -329,7 +334,9 @@
       "Seek lease renewal HoT for 42B before exchange"
     ],
     "next_step": "Obtain lease renewal heads of terms for 42B before proceeding. Negotiate price reduction if renewal not confirmed. Pass to DD skill if renewal secured.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/168922670"
   },
   {
     "listing_id": "172621337",
@@ -384,7 +391,8 @@
     ],
     "next_step": "Establish whether Savers intends to renew or has renewal rights under L&T Act. Negotiate price reduction to reflect short residual. Pass to DD if renewal likely.",
     "reject_reason": null,
-    "score_rationale": "Up from 65: EPC C(67) confirmed \u2014 removes lender concern. Size confirmed 2,260 sq ft (\u00a313.87/sqft). 98a long leasehold title included (60yr, \u00a3100pa ground rent \u2014 minor positive). Score held at 66 not higher: 1.5yr residual to Nov 2027 remains the binding constraint regardless of EPC/covenant quality. Yield 7.84% is the lowest among PROCEED assets. Savers covenant remains strong (A.S. Watson) but short residual limits practical value."
+    "score_rationale": "Up from 65: EPC C(67) confirmed \u2014 removes lender concern. Size confirmed 2,260 sq ft (\u00a313.87/sqft). 98a long leasehold title included (60yr, \u00a3100pa ground rent \u2014 minor positive). Score held at 66 not higher: 1.5yr residual to Nov 2027 remains the binding constraint regardless of EPC/covenant quality. Yield 7.84% is the lowest among PROCEED assets. Savers covenant remains strong (A.S. Watson) but short residual limits practical value.",
+    "information_complete": true
   },
   {
     "listing_id": "173619809",
@@ -440,7 +448,8 @@
     ],
     "next_step": "Lendability is the primary question \u2014 contact 2-3 commercial lenders to confirm appetite for A3/A4 use in SE6 at 65% LTV before any further DD. Identify tenant companies (VS Bar & Lounge, Pharoahs) via Companies House. Only proceed if lender confirms standard terms and tenants have verifiable trading history. Contact Acorn Commercial: Brendan Kennedy 020 8315 5454.",
     "reject_reason": null,
-    "score_rationale": "Down from 61: tenants now identified as F&B operators \u2014 Unit 226 VS Bar & Lounge, Unit 228 Pharoahs Caribbean restaurant/bar. Both are specialist fit-out F&B uses. EPC D on 226 is a lender concern. F&B use (A3/A4) restricts lender pool significantly and re-letting optionality. Verdict remains MARGINAL not REJECT because leases are structurally sound (10yr FRI, no breaks, 9.9yr residual, 2030 review, VAT-free) and this is a landlord investment not a business purchase \u2014 but lendability must be confirmed before proceeding."
+    "score_rationale": "Down from 61: tenants now identified as F&B operators \u2014 Unit 226 VS Bar & Lounge, Unit 228 Pharoahs Caribbean restaurant/bar. Both are specialist fit-out F&B uses. EPC D on 226 is a lender concern. F&B use (A3/A4) restricts lender pool significantly and re-letting optionality. Verdict remains MARGINAL not REJECT because leases are structurally sound (10yr FRI, no breaks, 9.9yr residual, 2030 review, VAT-free) and this is a landlord investment not a business purchase \u2014 but lendability must be confirmed before proceeding.",
+    "information_complete": true
   },
   {
     "listing_id": "174846905",
@@ -494,7 +503,8 @@
       "Auction fees add ~6% to effective purchase cost"
     ],
     "next_step": "URGENT: Access legal pack at bidx1.com immediately. Confirm guide price, tenure, FRI terms and break clause detail. Do not bid without legal pack review. Max bid \u00a3375,000.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "170561060",
@@ -546,7 +556,8 @@
       "EPC not stated \u2014 confirm before proceeding"
     ],
     "next_step": "Pull Mobile Screen Ltd accounts from Companies House. Confirm VAT/TOGC position. Only proceed if tenant shows 3+ years profitable trading and accounts are healthy.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "87362880",
@@ -599,7 +610,9 @@
       "Lenders may apply higher rate or lower LTV for betting use"
     ],
     "next_step": "Establish L&T Act status and whether Coral intends to renew. Confirm lender appetite for betting shop use. Only proceed if renewal likely or price reflects void risk.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/87362880"
   },
   {
     "listing_id": "169524482",
@@ -651,7 +664,9 @@
       "Re-letting risk post-expiry or post-break"
     ],
     "next_step": "Confirm VAT position, establish whether break has been triggered, check Merrow Business Park void history before proceeding.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/169524482"
   },
   {
     "listing_id": "165327212",
@@ -704,7 +719,9 @@
       "966yr leasehold \u2014 confirm lender appetite for virtual freehold"
     ],
     "next_step": "Identify tenant. Confirm VAT position. 4.8yr residual is short but L&T Act renewal rights provide downside protection. If tenant is established SME or above, pass to DD skill.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/165327212"
   },
   {
     "listing_id": "171281573",
@@ -757,7 +774,9 @@
       "Yield exactly at 7% mandate floor \u2014 no margin for error"
     ],
     "next_step": "Request full lease details, tenant name, and tenure confirmation. If freehold and tenant identifiable with verifiable trading history, reassess \u2014 location and yield are borderline acceptable.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/171281573"
   },
   {
     "listing_id": "159094265",
@@ -810,7 +829,9 @@
       "VAT position not stated"
     ],
     "next_step": "Identify tenant before bidding. Review legal pack. Do not exceed \u00a3300,000 bid. Only proceed if tenant is identifiable with verifiable trading history.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/159094265"
   },
   {
     "listing_id": "174436244",
@@ -863,7 +884,9 @@
       "Re-letting risk if tenant does not renew"
     ],
     "next_step": "Identify tenant and establish renewal intentions. 12yr occupation history is positive \u2014 if tenant signals renewal, negotiate price reduction to reflect short residual. Confirm tenure and FRI terms.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/174436244"
   },
   {
     "listing_id": "707826127848577",
@@ -916,7 +939,9 @@
       "Service charge \u00a31,622pa \u2014 confirm tenant liability under lease"
     ],
     "next_step": "Establish whether Kiddiecare intends to exercise break. Only proceed if written confirmation of non-exercise obtained, or price negotiated to reflect near-term vacancy risk.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/707826127848577"
   },
   {
     "listing_id": "88226094",
@@ -969,7 +994,9 @@
       "L&T Act status not stated"
     ],
     "next_step": "Identify tenant and confirm lender appetite for mixed-use with residential. If a commercial lender will lend at 65%+ LTV, the yield and lease term justify further investigation.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/88226094"
   },
   {
     "listing_id": "162090398",
@@ -1021,7 +1048,9 @@
       "L&T Act status not stated"
     ],
     "next_step": "Identify tenant and assess trading history. Only proceed if tenant can provide directors guarantee or rent deposit is increased. Yield is at the absolute floor \u2014 no margin for error.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/162090398"
   },
   {
     "listing_id": "88368834",
@@ -1073,7 +1102,9 @@
       "VAT position not confirmed"
     ],
     "next_step": "Only proceed if leveraged yield on equity clears 8% after modelling debt service. Confirm L&T Act status and pull tenant accounts from Companies House.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/88368834"
   },
   {
     "listing_id": "171315452",
@@ -1127,7 +1158,9 @@
       "VAT and L&T Act status unknown"
     ],
     "next_step": "Request full tenancy schedule with lease terms, tenant names and rent per floor. Only proceed if leases are FRI with minimum 5yr residual on each. Multi-let complexity is high for first-time buyer.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/171315452"
   },
   {
     "listing_id": "167633084",
@@ -3688,7 +3721,8 @@
     ],
     "next_step": "Identify pharmacy tenant and confirm lease terms. Verify lender appetite for mixed gym/pharmacy. Negotiate on gym break risk if present.",
     "reject_reason": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/6edd8280e/168410177/6edd8280e41c77bc96a6f6cd33419647.jpeg"
+    "image_url": "https://media.rightmove.co.uk/property-photo/6edd8280e/168410177/6edd8280e41c77bc96a6f6cd33419647.jpeg",
+    "information_complete": true
   },
   {
     "listing_id": "165068792",
@@ -4137,7 +4171,9 @@
     ],
     "next_step": "Identify all tenants and confirm lease expiry dates. Only proceed if at least ground floor tenants can provide company guarantees. Confirm lender appetite for multi-let mixed use.",
     "reject_reason": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/387622da9/166110917/387622da9e4d9243073a1784227ff6b7.jpeg"
+    "image_url": "https://media.rightmove.co.uk/property-photo/387622da9/166110917/387622da9e4d9243073a1784227ff6b7.jpeg",
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/166110917"
   },
   {
     "listing_id": "749348336584336",
@@ -4358,7 +4394,8 @@
     ],
     "next_step": "Obtain legal pack immediately. Identify tenants and confirm lease residuals. Max bid \u00a3325k (11% yield) to absorb 2.75% auction fee and maintain yield floor. Do not bid without viewing and tenant verification.",
     "reject_reason": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/ef27efb4b/88227846/ef27efb4b77692f021210ef73b3fe1ed.jpeg"
+    "image_url": "https://media.rightmove.co.uk/property-photo/ef27efb4b/88227846/ef27efb4b77692f021210ef73b3fe1ed.jpeg",
+    "information_complete": true
   },
   {
     "listing_id": "174665102",
@@ -5192,7 +5229,8 @@
     "next_step": "Confirm rent review history and OMV. Establish whether Bayfields intends to renew (likely given patient base). Confirm VAT and EPC. Pass to DD skill.",
     "reject_reason": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/15562e6e3/170223119/15562e6e39d0ac0f13f3d3b430540736.jpeg",
-    "score_rationale": "Up from 67: EPC B confirmed (best in PROCEED file, removes lender concern entirely) and VAT not applicable (simpler purchase, no TOGC risk). Held at 69 not higher: covenant still medium (50+ store regional optician, no financial detail confirmed) \u2014 weaker than Leeds Zenzero (Experian 83) despite better EPC/VAT. 4.2yr residual to Jul 2030 remains binding constraint. Rent review provisions absent from brochure despite 10yr of occupation \u2014 flag to clarify."
+    "score_rationale": "Up from 67: EPC B confirmed (best in PROCEED file, removes lender concern entirely) and VAT not applicable (simpler purchase, no TOGC risk). Held at 69 not higher: covenant still medium (50+ store regional optician, no financial detail confirmed) \u2014 weaker than Leeds Zenzero (Experian 83) despite better EPC/VAT. 4.2yr residual to Jul 2030 remains binding constraint. Rent review provisions absent from brochure despite 10yr of occupation \u2014 flag to clarify.",
+    "information_complete": true
   },
   {
     "listing_id": "163056869",
@@ -6114,7 +6152,8 @@
     ],
     "next_step": "Pull MTECH IT accounts from Companies House. Confirm TOGC VAT treatment. Verify RPI base date and estimated uplift. Pass to DD skill if accounts show viable trading.",
     "reject_reason": null,
-    "score_rationale": "Up from 68: Experian 83/100 low risk credit score confirmed; MTECH IT Leeds is subsidiary of Zenzero Solutions (national MSP, 800+ professionals, Co. Reg. 03313680) \u2014 stronger covenant than standalone SME assumed. FRI confirmed, no breaks confirmed, RPI Oct 2026 confirmed, TOGC VAT confirmed. Score ceiling constrained by 3.75yr residual to Feb 2030 expiry \u2014 lease length is the binding weakness, not covenant."
+    "score_rationale": "Up from 68: Experian 83/100 low risk credit score confirmed; MTECH IT Leeds is subsidiary of Zenzero Solutions (national MSP, 800+ professionals, Co. Reg. 03313680) \u2014 stronger covenant than standalone SME assumed. FRI confirmed, no breaks confirmed, RPI Oct 2026 confirmed, TOGC VAT confirmed. Score ceiling constrained by 3.75yr residual to Feb 2030 expiry \u2014 lease length is the binding weakness, not covenant.",
+    "information_complete": true
   },
   {
     "listing_id": "163591745",
@@ -6323,7 +6362,9 @@
       "VAT position not stated"
     ],
     "next_step": "Obtain full lease particulars (term, expiry, FRI/IRI, tenant name). Only proceed if residual >3yr and tenant is identifiable national/regional operator.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/140303240"
   },
   {
     "listing_id": "171196394",
@@ -6460,7 +6501,9 @@
       "L&T Act status not stated"
     ],
     "next_step": "Negotiate price to \u00a3280,000\u2013\u00a3285,000 to achieve 7%+ yield. Confirm EPC and L&T Act status. Strong covenant justifies consideration at right price.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/743143738228577"
   },
   {
     "listing_id": "170097959",
@@ -6898,7 +6941,8 @@
       "Niche second-hand electronics use"
     ],
     "next_step": "Obtain full lease particulars from brochure/agent. Confirm TOGC VAT treatment. If residual >3yr FRI with no break, yield justifies DD.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "160034639",
@@ -6957,7 +7001,8 @@
     ],
     "next_step": "Key question: contact agent (David Brackenridge, BHT, 0113 244 9020) to establish whether Cash Access UK Ltd has indicated intent re Nov 2026 break. Banking Hubs are typically long-term commitments \u2014 LINK/CASH Access have been expanding, not contracting. If break risk acceptable, pass to DD skill. TOGC VAT treatment must be confirmed before exchange.",
     "reject_reason": null,
-    "score_rationale": "Calibrated against file: beats Cheshunt (76, no break, medium covenant, EPC unknown) on yield (9.02 vs 8.65), covenant strength (strong confirmed vs medium), and EPC (C54 confirmed). Break at 2.5yr is the primary discount vs Cheshunt. Above Blackburn IVC (70, strong covenant, no break, but 8.0% yield). Score 77 reflects: confirmed 10yr FRI + strong covenant financials + EPC C + upwards-only OMV review, discounted by tenant break Nov 2026, Grade II listed, and TOGC VAT to confirm."
+    "score_rationale": "Calibrated against file: beats Cheshunt (76, no break, medium covenant, EPC unknown) on yield (9.02 vs 8.65), covenant strength (strong confirmed vs medium), and EPC (C54 confirmed). Break at 2.5yr is the primary discount vs Cheshunt. Above Blackburn IVC (70, strong covenant, no break, but 8.0% yield). Score 77 reflects: confirmed 10yr FRI + strong covenant financials + EPC C + upwards-only OMV review, discounted by tenant break Nov 2026, Grade II listed, and TOGC VAT to confirm.",
+    "information_complete": true
   },
   {
     "listing_id": "743556608939872",
@@ -7010,7 +7055,9 @@
       "EPC C \u2014 acceptable"
     ],
     "next_step": "Contact agent to establish if NFU Mutual has indicated intent re break. If break waived or confirmed non-exercise, upgrade to PROCEED. Only proceed if written non-exercise obtained.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/743556608939872"
   },
   {
     "listing_id": "740645017330960",
@@ -7567,7 +7614,9 @@
       "Tenure not confirmed"
     ],
     "next_step": "Obtain tenancy schedule with names, lease terms and expiry dates. Confirm tenure. Only proceed if major tenants are identifiable businesses with leases >3yr.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": false,
+    "brochure_url": "https://www.rightmove.co.uk/properties/742088902380401"
   },
   {
     "listing_id": "170865125",
@@ -7704,7 +7753,8 @@
       "VAT position not confirmed"
     ],
     "next_step": "Confirm rent review provisions. Check listed building condition report. Verify IVC Evidensia group financials. Pass to DD skill.",
-    "reject_reason": null
+    "reject_reason": null,
+    "information_complete": true
   },
   {
     "listing_id": "173532518",
