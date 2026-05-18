@@ -56,6 +56,7 @@ function verdictBadge(verdict, score) {
 }
 
 function infoIcon(complete, brochureUrl) {
+  if (complete == null) return '';
   if (complete) {
     return `<span class="info-icon info-icon--complete" title="Information complete">
       <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
