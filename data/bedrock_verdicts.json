@@ -3664,7 +3664,8 @@
       "Gym lease term/start date not confirmed"
     ],
     "next_step": "Identify pharmacy tenant and confirm lease terms. Verify lender appetite for mixed gym/pharmacy. Negotiate on gym break risk if present.",
-    "reject_reason": null
+    "reject_reason": null,
+    "image_url": "https://media.rightmove.co.uk/property-photo/6edd8280e/168410177/6edd8280e41c77bc96a6f6cd33419647.jpeg"
   },
   {
     "listing_id": "165068792",
@@ -4112,7 +4113,8 @@
       "Cross-invoicing arrangement between retail units"
     ],
     "next_step": "Identify all tenants and confirm lease expiry dates. Only proceed if at least ground floor tenants can provide company guarantees. Confirm lender appetite for multi-let mixed use.",
-    "reject_reason": null
+    "reject_reason": null,
+    "image_url": "https://media.rightmove.co.uk/property-photo/387622da9/166110917/387622da9e4d9243073a1784227ff6b7.jpeg"
   },
   {
     "listing_id": "749348336584336",
@@ -4332,7 +4334,8 @@
       "No VAT status stated"
     ],
     "next_step": "Obtain legal pack immediately. Identify tenants and confirm lease residuals. Max bid \u00a3325k (11% yield) to absorb 2.75% auction fee and maintain yield floor. Do not bid without viewing and tenant verification.",
-    "reject_reason": null
+    "reject_reason": null,
+    "image_url": "https://media.rightmove.co.uk/property-photo/ef27efb4b/88227846/ef27efb4b77692f021210ef73b3fe1ed.jpeg"
   },
   {
     "listing_id": "174665102",
@@ -5164,7 +5167,8 @@
       "EPC not stated \u2014 confirm before proceeding"
     ],
     "next_step": "Confirm rent review history and OMV. Establish whether Bayfields intends to renew (likely given patient base). Confirm VAT and EPC. Pass to DD skill.",
-    "reject_reason": null
+    "reject_reason": null,
+    "image_url": "https://media.rightmove.co.uk/property-photo/15562e6e3/170223119/15562e6e39d0ac0f13f3d3b430540736.jpeg"
   },
   {
     "listing_id": "163056869",
