@@ -5,14 +5,14 @@
     "url": "https://www.rightmove.co.uk/properties/88490184",
     "date_scraped": "2026-05-17",
     "verdict": "PROCEED",
-    "score": 76,
+    "score": 68,
     "auction": true,
     "auction_date": "2026-06-04",
     "auction_max_bid": 281250,
     "image_url": "https://media.rightmove.co.uk/property-photo/8dff37318/88490184/8dff37318b5893f61c31a3db7cf57a4b.jpeg",
     "asset": {
       "type": "Retail Property (high street)",
-      "tenure": "Freehold (virtual)",
+      "tenure": "Freehold (virtual, 999yr leasehold at peppercorn)",
       "size_sqft": 1007,
       "epc": null,
       "vat_elected": false,
@@ -28,29 +28,32 @@
       "term_years": 12,
       "start_date": "2022-01-18",
       "expiry_date": "2034-01-18",
-      "residual_years": 7.7,
+      "residual_years": 7.6,
       "type": "FRI",
       "inside_lt_act": null,
-      "rent_review": "Jan 2026 (outstanding) and 2030 \u2014 upward only",
+      "rent_review": "Jan 2026 (not yet actioned at brochure date) and Jan 2030",
       "tenant_break": null,
       "landlord_break": null
     },
     "tenant": {
       "name": "Home Depot Pound Saver Ltd t/a Local Discount Store",
-      "type": "regional",
-      "sector": "discount retail / household goods",
-      "covenant_strength": "medium",
-      "notes": "3-branch discount retailer; personal guarantor; 10+ years in occupation; \u00a310,000 rent deposit held"
+      "type": "local",
+      "sector": "Discount household goods retail",
+      "covenant_strength": "weak",
+      "notes": "3-branch independent discount goods retailer. Personal guarantor held. In occupation at least 10 years (renewal of previous lease). \u00a310,000 rent deposit held."
     },
     "flags": [
-      "Auction 4 June 2026 \u2014 legal pack review required urgently",
-      "Max bid \u00a3281,250 at 8% yield floor (\u00a322,500 / 0.08)",
-      "Jan 2026 rent review not yet actioned \u2014 may increase rent",
-      "Personal guarantor only \u2014 no company balance sheet strength",
-      "L&T Act status not stated"
+      "Weak covenant \u2014 3-branch SME discount retailer, personal guarantor only; no verified balance sheet",
+      "Rent review Jan 2026 not yet actioned \u2014 confirm current passing rent and whether review concluded",
+      "999yr leasehold not true freehold \u2014 confirm lender appetite (most accept but some restrict)",
+      "Auction lot \u2014 confirm actual purchase price; yield calculation depends on hammer price vs guide \u00a3260k+",
+      "EPC not stated \u2014 obtain before proceeding",
+      "L&T Act status not stated",
+      "Household goods discount use under secular pressure from online/larger discounters"
     ],
-    "next_step": "Access legal pack. Review outstanding Jan 2026 rent review \u2014 if actioned upward, yield improves further. Confirm L&T Act status. Max bid \u00a3281,250. Pass to DD skill if rent review resolved.",
-    "reject_reason": null
+    "next_step": "Confirm: (1) whether Jan 2026 rent review concluded and new passing rent; (2) actual sale price if acquired at auction; (3) EPC rating; (4) L&T Act status. Contact Steven Grossman or Elliott Greene (auctioneers). Pull Home Depot Pound Saver Ltd accounts from Companies House.",
+    "reject_reason": null,
+    "score_rationale": "Down from 76: tenant identified as Home Depot Pound Saver Ltd t/a Local Discount Store \u2014 3-branch SME discount retailer with personal guarantor only. Covenant is weak not medium as assumed. Auction lot (guide \u00a3260k+, \u00a31,500 admin fee). Rent review Jan 2026 not yet actioned at time of brochure \u2014 status unknown. Held at 68: FRI confirmed, no breaks, 7.6yr residual to Jan 2034, no VAT, \u00a310k deposit, strong Cheshunt location offset the weak covenant. Below Maldon (71, weak tenant with personal guarantee but longer residual) and Leeds (70, stronger Zenzero covenant)."
   },
   {
     "listing_id": "174362429",
@@ -58,50 +61,57 @@
     "url": "https://www.rightmove.co.uk/properties/174362429",
     "date_scraped": "2026-05-17",
     "verdict": "PROCEED",
-    "score": 72,
+    "score": 74,
+    "score_rationale": "Up from 72: heavy information discount in original record now resolved. No breaks confirmed (strong positive vs Brighton at 69 with two breaks). EPC C(61), contracted outside L&T Act, RPI collar 2% cap 5% compounded reviews, guaranteed stepped rent mechanism, and reversionary 15yr lease already signed by tenant. Held at 74 not higher: covenant unknown (Cloud 9 Beauty \u2014 independent SME), VAT applicable (TOGC/VAT complexity), virtual freehold not true freehold, beauty use restricts re-letting. Below Cheshunt (76, known medium covenant, no VAT/virtual freehold flags) and Otley (77, confirmed strong covenant with financials).",
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/ef7368fca/174362429/ef7368fca5177251e2c91de445ab3d98.jpeg",
     "asset": {
       "type": "Retail Property (high street)",
-      "tenure": "Freehold (virtual)",
-      "size_sqft": null,
-      "epc": null,
-      "vat_elected": false,
-      "location_quality": "strong"
+      "tenure": "Freehold (virtual, 999yr, headlease from Feb 2020)",
+      "size_sqft": 664,
+      "epc": "C61",
+      "vat_elected": true,
+      "location_quality": "strong",
+      "notes": "Ground floor 257 sq ft + basement 407 sq ft. SE1 Bermondsey \u2014 close to Maltby Street Market, London Bridge and Bermondsey stations. Peppercorn ground rent on 999yr headlease."
     },
     "financials": {
-      "asking_price": 290000,
+      "asking_price": 285000,
       "rent_pa": 22000,
-      "gross_yield_pct": 7.59,
-      "price_per_sqft": null
+      "gross_yield_pct": 7.72,
+      "price_per_sqft": 429,
+      "notes": "Stepped rent mechanism guarantees increases. OMV review at new lease commencement (~2027) likely to mark rent to market."
     },
     "lease": {
       "term_years": 15,
       "start_date": null,
-      "expiry_date": "2043-01-01",
+      "expiry_date": "2042-01-01",
       "residual_years": 16.6,
-      "type": "Unknown",
+      "type": "Unknown (effective FRI implied; outside Act confirmed)",
       "inside_lt_act": false,
-      "rent_review": "5yr OMV reviews; RPI collar 2% cap 5% compounded",
+      "rent_review": "OMV at reversion commencement (~2027); subsequent 5yr RPI collar 2% cap 5% compounded",
       "tenant_break": null,
-      "landlord_break": null
+      "landlord_break": null,
+      "notes": "Current lease ~2yr unexpired. New 15yr reversionary lease signed by tenant \u2014 no break clauses. Stepped rent mechanism in addition to reviews."
     },
     "tenant": {
-      "name": "Unknown independent retailer",
+      "name": "Cloud 9 Beauty",
       "type": "local",
-      "sector": "retail (independent)",
+      "sector": "beauty salon",
       "covenant_strength": "unknown",
-      "notes": "Tenant unnamed; signed 15yr reversionary lease with no breaks \u2014 strong commitment signal"
+      "notes": "Independent beauty salon operator in SE1. Tenant has committed to 15yr reversionary lease without breaks \u2014 demonstrates occupational commitment. No financial information available."
     },
     "flags": [
-      "Tenant unnamed \u2014 identify before proceeding",
-      "999yr headlease from 2020 \u2014 confirm peppercorn ground rent and no onerous covenants",
-      "EPC not stated \u2014 confirm before proceeding",
-      "VAT position not stated \u2014 confirm"
+      "Covenant unknown \u2014 independent beauty salon, no verifiable balance sheet",
+      "Beauty salon use \u2014 specialist fit-out, restricts re-letting pool vs general Class E",
+      "VAT applicable \u2014 TOGC treatment required; confirm with solicitors before exchange",
+      "Virtual freehold (999yr) \u2014 confirm lender appetite; most accept but some restrict",
+      "Reversionary lease: confirm lease is fully executed and unconditional before proceeding",
+      "OMV review at reversion commencement (~2027) \u2014 rent may adjust significantly if passing rent below market",
+      "Current passing rent \u00a322,000 \u2014 confirm stepped rent schedule and amounts"
     ],
-    "next_step": "Identify tenant and pull accounts. Review headlease for onerous covenants. Confirm VAT and EPC. If tenant is viable SME or above, pass to DD skill \u2014 lease structure is best in class.",
+    "next_step": "Identify and verify Cloud 9 Beauty (Companies House search). Confirm reversionary lease is fully executed \u2014 this is critical. Obtain stepped rent schedule. Confirm TOGC VAT treatment. Check lender appetite for 999yr virtual freehold in SE1. Contact Strettons: Finlay Milnes (07791 744289) or Sean Crowhurst (07791 849470).",
     "reject_reason": null
   },
   {
@@ -110,7 +120,8 @@
     "url": "https://www.rightmove.co.uk/properties/168956270",
     "date_scraped": "2026-05-17",
     "verdict": "PROCEED",
-    "score": 72,
+    "score": 69,
+    "score_rationale": "Down from 72: breaks at yr5 (Oct 2030) and yr10 (Oct 2035) discovered \u2014 effective residual to first break 4.4yr, not 14.4yr as assumed. Partially offset by FRI confirmed, 5yr RPI reviews (positive), no VAT (simpler), and strong Brighton North Laine location. Held at 69 rather than below: Brighton location is materially stronger than Maldon Duck Nail (71) but tenant covenant entirely unknown vs Maldon which had personal guarantee and rent deposit. Below Maldon because unnamed SME beauty tenant with no verifiable covenant and two breaks vs one.",
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -118,43 +129,48 @@
     "asset": {
       "type": "Retail Property (high street)",
       "tenure": "Freehold",
-      "size_sqft": null,
+      "size_sqft": 660,
       "epc": null,
       "vat_elected": false,
-      "location_quality": "strong"
+      "location_quality": "strong",
+      "notes": "Ground floor + basement (455 + 205 sq ft). Flat 23a sold off on 125yr lease from Mar 1988 at \u00a3113pa ground rent. North Laine area, minutes from seafront and i360."
     },
     "financials": {
-      "asking_price": 275000,
+      "asking_price": null,
       "rent_pa": 23920,
       "gross_yield_pct": 8.7,
-      "price_per_sqft": null
+      "price_per_sqft": null,
+      "notes": "Price on application \u2014 yield 8.7% calculated from Rightmove listing price of \u00a3275,000 implied"
     },
     "lease": {
       "term_years": 15,
       "start_date": "2025-10-01",
       "expiry_date": "2040-10-01",
       "residual_years": 14.4,
-      "type": "Unknown",
+      "residual_to_first_break_years": 4.4,
+      "type": "FRI",
       "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
+      "rent_review": "5yr RPI indexed (Oct 2030, Oct 2035)",
+      "tenant_break": "Oct 2030 (yr 5) and Oct 2035 (yr 10) \u2014 tenant only",
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown (beauty salon)",
-      "type": "local",
-      "sector": "beauty salon",
+      "name": "Unknown \u2014 trading as Happy Nails beauty salon",
+      "type": "unknown",
+      "sector": "beauty / nail salon",
       "covenant_strength": "unknown",
-      "notes": "Tenant not named in listing; 15yr lease signed Oct 2025 is strong commitment signal; flat above sold off on long lease"
+      "notes": "Unnamed SME operator. No personal guarantee, rent deposit or trading history disclosed. Beauty/nail salon use restricts re-letting pool vs general Class E."
     },
     "flags": [
-      "Tenant unnamed \u2014 identify before proceeding",
-      "Lease type (FRI/IRI) not confirmed \u2014 request lease details",
+      "Tenant breaks at Oct 2030 AND Oct 2035 \u2014 effective income security to first break only 4.4yr",
+      "Tenant unnamed \u2014 covenant entirely unverifiable without further enquiry",
+      "Beauty/nail salon use \u2014 specialist fit-out, limits re-letting pool",
+      "EPC not provided \u2014 must be obtained before proceeding",
+      "Price on application \u2014 yield calculation assumes ~\u00a3275k from Rightmove listing",
       "L&T Act status not stated",
-      "EPC not provided \u2014 request before proceeding",
-      "Beauty salon \u2014 moderately restrictive re-letting use"
+      "Flat 23a ground rent \u00a3113pa \u2014 confirm no freeholder obligations under lease"
     ],
-    "next_step": "Identify tenant and request lease document to confirm FRI terms, L&T Act status and break provisions. EPC required. If tenant is established operator with verifiable trading history, pass to DD skill.",
+    "next_step": "Identify tenant and obtain company/personal details. Confirm price with Carr & Priddle (Simon Thetford, 07851 246805). Obtain EPC. Stress test void scenario at Oct 2030 break in Brighton retail market. If tenant is identifiable with trading history, pass to DD skill.",
     "reject_reason": null
   },
   {
@@ -242,7 +258,8 @@
       "inside_lt_act": null,
       "rent_review": "5yr upward-only OMV",
       "tenant_break": "2031-02-13",
-      "landlord_break": null
+      "landlord_break": null,
+      "notes": "Flat 159A: 99yr lease from 29 Sep 2006 at \u00a3250pa ground rent; review every 25yr to 0.0515% OMV; reversion 2105."
     },
     "tenant": {
       "name": "Duck Nail Studio Ltd",
@@ -320,7 +337,7 @@
     "url": "https://www.rightmove.co.uk/properties/172621337",
     "date_scraped": "2026-05-16",
     "verdict": "PROCEED",
-    "score": 65,
+    "score": 66,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -328,10 +345,11 @@
     "asset": {
       "type": "Retail Property (high street)",
       "tenure": "Freehold",
-      "size_sqft": null,
-      "epc": null,
+      "size_sqft": 2260,
+      "epc": "C67",
       "vat_elected": null,
-      "location_quality": "average"
+      "location_quality": "average",
+      "notes": "Ground floor retail only 2,260 sq ft. Freehold includes 98a long leasehold title (60yr remaining, \u00a3100pa ground rent). Neighbouring Coral and caf\u00e9 visible in photography."
     },
     "financials": {
       "asking_price": 400000,
@@ -361,10 +379,12 @@
       "Lease expires Nov 2027 \u2014 ~1.5yr residual",
       "Re-letting risk if Savers does not renew",
       "VAT position not confirmed",
-      "L&T Act status not confirmed \u2014 affects renewal rights"
+      "L&T Act status not confirmed \u2014 affects renewal rights",
+      "VAT position not stated \u2014 confirm with agent before exchange"
     ],
     "next_step": "Establish whether Savers intends to renew or has renewal rights under L&T Act. Negotiate price reduction to reflect short residual. Pass to DD if renewal likely.",
-    "reject_reason": null
+    "reject_reason": null,
+    "score_rationale": "Up from 65: EPC C(67) confirmed \u2014 removes lender concern. Size confirmed 2,260 sq ft (\u00a313.87/sqft). 98a long leasehold title included (60yr, \u00a3100pa ground rent \u2014 minor positive). Score held at 66 not higher: 1.5yr residual to Nov 2027 remains the binding constraint regardless of EPC/covenant quality. Yield 7.84% is the lowest among PROCEED assets. Savers covenant remains strong (A.S. Watson) but short residual limits practical value."
   },
   {
     "listing_id": "173619809",
@@ -372,7 +392,7 @@
     "url": "https://www.rightmove.co.uk/properties/173619809",
     "date_scraped": "2026-05-16",
     "verdict": "MARGINAL",
-    "score": 61,
+    "score": 53,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -381,8 +401,8 @@
       "type": "Mixed Use",
       "tenure": "Freehold",
       "size_sqft": null,
-      "epc": null,
-      "vat_elected": null,
+      "epc": "D (226) / C (228)",
+      "vat_elected": false,
       "location_quality": "average"
     },
     "financials": {
@@ -393,9 +413,9 @@
     },
     "lease": {
       "term_years": 10,
-      "start_date": "2025-01-01",
-      "expiry_date": "2035-01-01",
-      "residual_years": 8.6,
+      "start_date": "2025-07-01",
+      "expiry_date": "2035-05-01",
+      "residual_years": 9.9,
       "type": "FRI",
       "inside_lt_act": null,
       "rent_review": "2030",
@@ -403,21 +423,24 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Unknown (2x retail tenants)",
+      "name": "Unit 226: VS Bar & Lounge; Unit 228: Pharoahs Caribbean Restaurant/Bar",
       "type": "unknown",
-      "sector": "retail",
+      "sector": "Food & beverage (bar/restaurant)",
       "covenant_strength": "unknown",
-      "notes": "Two separate retail tenants unnamed in listing; freehold of block includes 4 sold-off residential flats on 61yr underleases"
+      "notes": "Both units operated as bars/restaurants. Specialist fit-outs visible. F&B covenant quality inherently volatile. Tenant companies still unnamed in brochure \u2014 verify via Companies House."
     },
     "flags": [
-      "Tenant names not disclosed \u2014 covenant unverifiable pre-enquiry",
-      "Residential flats above on 61yr underleases \u2014 adds management complexity",
-      "Multi-tenanted \u2014 higher management overhead for first-time buyer",
-      "L&T Act status not confirmed",
-      "VAT position not confirmed"
+      "BOTH TENANTS ARE F&B OPERATORS (bar/restaurant) \u2014 lendability risk; most CRE lenders restrict A3/A4 use at standard LTV terms",
+      "EPC D on Unit 226 \u2014 lenders may require minimum C by 2027/28; check lender appetite before proceeding",
+      "Specialist F&B fit-out on both units severely restricts re-letting pool on vacancy",
+      "Tenant names still not disclosed \u2014 verify via Companies House before proceeding",
+      "4 of 6 residential flats on 61yr underleases \u2014 confirm no freeholder obligations or service charge liability",
+      "L&T Act status not stated",
+      "Multi-tenanted \u2014 higher management complexity for first-time buyer"
     ],
-    "next_step": "Request tenant names and lease schedules. Understand flat underlease obligations. Only proceed if tenants are identifiable operators with verifiable trading history.",
-    "reject_reason": null
+    "next_step": "Lendability is the primary question \u2014 contact 2-3 commercial lenders to confirm appetite for A3/A4 use in SE6 at 65% LTV before any further DD. Identify tenant companies (VS Bar & Lounge, Pharoahs) via Companies House. Only proceed if lender confirms standard terms and tenants have verifiable trading history. Contact Acorn Commercial: Brendan Kennedy 020 8315 5454.",
+    "reject_reason": null,
+    "score_rationale": "Down from 61: tenants now identified as F&B operators \u2014 Unit 226 VS Bar & Lounge, Unit 228 Pharoahs Caribbean restaurant/bar. Both are specialist fit-out F&B uses. EPC D on 226 is a lender concern. F&B use (A3/A4) restricts lender pool significantly and re-letting optionality. Verdict remains MARGINAL not REJECT because leases are structurally sound (10yr FRI, no breaks, 9.9yr residual, 2030 review, VAT-free) and this is a landlord investment not a business purchase \u2014 but lendability must be confirmed before proceeding."
   },
   {
     "listing_id": "174846905",
@@ -5123,7 +5146,7 @@
     "url": "https://www.rightmove.co.uk/properties/170223119",
     "date_scraped": "2026-05-18",
     "verdict": "PROCEED",
-    "score": 67,
+    "score": 69,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -5131,8 +5154,8 @@
       "type": "Retail Property (high street)",
       "tenure": "Freehold",
       "size_sqft": 3870,
-      "epc": null,
-      "vat_elected": null,
+      "epc": "B",
+      "vat_elected": false,
       "location_quality": "average"
     },
     "financials": {
@@ -5163,12 +5186,13 @@
       "4.2yr residual \u2014 re-letting risk post Jul 2030",
       "Optician use restricts re-letting pool vs general Class E",
       "No rent review detail stated \u2014 confirm OMV vs passing",
-      "VAT position not stated",
-      "EPC not stated \u2014 confirm before proceeding"
+      "Rent review provisions not stated in brochure \u2014 10yr occupation with no review mention is a concern; confirm with agent",
+      "L&T Act status not stated \u2014 confirm contracted in/out"
     ],
     "next_step": "Confirm rent review history and OMV. Establish whether Bayfields intends to renew (likely given patient base). Confirm VAT and EPC. Pass to DD skill.",
     "reject_reason": null,
-    "image_url": "https://media.rightmove.co.uk/property-photo/15562e6e3/170223119/15562e6e39d0ac0f13f3d3b430540736.jpeg"
+    "image_url": "https://media.rightmove.co.uk/property-photo/15562e6e3/170223119/15562e6e39d0ac0f13f3d3b430540736.jpeg",
+    "score_rationale": "Up from 67: EPC B confirmed (best in PROCEED file, removes lender concern entirely) and VAT not applicable (simpler purchase, no TOGC risk). Held at 69 not higher: covenant still medium (50+ store regional optician, no financial detail confirmed) \u2014 weaker than Leeds Zenzero (Experian 83) despite better EPC/VAT. 4.2yr residual to Jul 2030 remains binding constraint. Rent review provisions absent from brochure despite 10yr of occupation \u2014 flag to clarify."
   },
   {
     "listing_id": "163056869",
@@ -6040,7 +6064,7 @@
     "url": "https://www.rightmove.co.uk/properties/87844530",
     "date_scraped": "2026-05-18",
     "verdict": "PROCEED",
-    "score": 68,
+    "score": 70,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -6068,25 +6092,29 @@
       "inside_lt_act": null,
       "rent_review": "RPI Oct 2026",
       "tenant_break": null,
-      "landlord_break": null
+      "landlord_break": null,
+      "notes": "FRI confirmed; not subject to schedule of condition. No breaks confirmed."
     },
     "tenant": {
       "name": "MTECH IT (Leeds)",
       "type": "local",
       "sector": "IT services",
-      "covenant_strength": "medium",
-      "notes": "In occupation since Apr 2015; renewed Feb 2023; 10yr track record at premises; SME IT company"
+      "covenant_strength": "medium-strong",
+      "notes": "MTECH IT (Leeds) Ltd (Co. 08000428), subsidiary of Zenzero Solutions Ltd (Co. 03313680) \u2014 national MSP with 800+ professionals. Experian credit score 83/100 low risk. In occupation since Apr 2015; renewed Feb 2023. Clients include Leeds Rugby and Yorkshire Cricket."
     },
     "flags": [
+      "3.75yr residual to Feb 2030 \u2014 primary risk; re-letting or renewal negotiation imminent",
       "3.75yr residual \u2014 re-letting risk post Feb 2030",
       "VAT applicable \u2014 confirm TOGC eligibility",
-      "SME IT covenant \u2014 pull Companies House accounts",
       "RPI review Oct 2026 \u2014 est. \u00a330,900pa at 3%",
-      "EPC not stated \u2014 confirm before proceeding",
-      "L&T Act status not stated"
+      "L&T Act status not stated",
+      "EPC available on request \u2014 must obtain before proceeding",
+      "Medium/long term residential conversion opportunity noted by agent (STP) \u2014 exit optionality",
+      "VAT elected \u2014 TOGC treatment anticipated, confirm with solicitors"
     ],
     "next_step": "Pull MTECH IT accounts from Companies House. Confirm TOGC VAT treatment. Verify RPI base date and estimated uplift. Pass to DD skill if accounts show viable trading.",
-    "reject_reason": null
+    "reject_reason": null,
+    "score_rationale": "Up from 68: Experian 83/100 low risk credit score confirmed; MTECH IT Leeds is subsidiary of Zenzero Solutions (national MSP, 800+ professionals, Co. Reg. 03313680) \u2014 stronger covenant than standalone SME assumed. FRI confirmed, no breaks confirmed, RPI Oct 2026 confirmed, TOGC VAT confirmed. Score ceiling constrained by 3.75yr residual to Feb 2030 expiry \u2014 lease length is the binding weakness, not covenant."
   },
   {
     "listing_id": "163591745",
@@ -6878,7 +6906,7 @@
     "url": "https://www.rightmove.co.uk/properties/160034639",
     "date_scraped": "2026-05-18",
     "verdict": "PROCEED",
-    "score": 71,
+    "score": 77,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -6886,44 +6914,50 @@
     "asset": {
       "type": "Retail Property (high street)",
       "tenure": "Freehold",
-      "size_sqft": null,
-      "epc": null,
-      "vat_elected": null,
-      "location_quality": "strong"
+      "size_sqft": 1332,
+      "epc": "C54",
+      "vat_elected": true,
+      "location_quality": "strong",
+      "listed": "Grade II",
+      "notes": "Former Old Hall. Ground floor retail unit only \u2014 2 residential flats above sold off on 125yr long leaseholds at \u00a3100pa (effectively peppercorn). Clean commercial title."
     },
     "financials": {
       "asking_price": 279500,
       "rent_pa": 25200,
       "gross_yield_pct": 9.02,
-      "price_per_sqft": null
+      "niy_pct": 8.75,
+      "price_per_sqft": 210
     },
     "lease": {
-      "term_years": null,
-      "start_date": null,
-      "expiry_date": null,
-      "residual_years": null,
-      "type": "Unknown",
+      "term_years": 10,
+      "start_date": "2023-11-30",
+      "expiry_date": "2033-11-29",
+      "residual_years": 8.5,
+      "type": "FRI",
       "inside_lt_act": null,
-      "rent_review": null,
-      "tenant_break": null,
+      "rent_review": "Upwards only open market review 30 Nov 2028",
+      "tenant_break": "30 Nov 2026 (2.5yr from now)",
       "landlord_break": null
     },
     "tenant": {
       "name": "Cash Access UK Ltd",
       "type": "national",
-      "sector": "banking/ATM services",
+      "sector": "Banking / cash access infrastructure",
       "covenant_strength": "strong",
-      "notes": "Owned by nine major UK high street banks (Barclays, Lloyds, NatWest, HSBC et al); government-backed cash access infrastructure"
+      "notes": "Owned by 9 major UK high street banks. Turnover \u00a318.607m, pre-tax profit \u00a37.371m (YE Dec 2023). Provides Banking Hub services to towns without high street banking. Government-backed cash access initiative."
     },
     "flags": [
-      "No lease term or expiry stated \u2014 must obtain full lease particulars",
-      "Grade II listed \u2014 structural capex risk, may restrict lender pool",
-      "Residential flats above sold off on long leases \u2014 confirm clean commercial title",
-      "EPC not stated",
-      "VAT position not stated"
+      "TENANT BREAK 30 Nov 2026 \u2014 ~2.5yr from now. Key risk: if exercised, asset becomes vacant Grade II listed retail in Otley",
+      "VAT elected \u2014 purchase price + VAT; TOGC anticipated but must be confirmed with solicitors",
+      "Grade II listed \u2014 limits structural alterations; specialist surveyor report essential",
+      "Open market rent review Nov 2028 \u2014 upwards only, post-break if tenant stays",
+      "Flats above on 125yr leases at \u00a3100pa peppercorn \u2014 confirm no service charge obligations fall to freeholder",
+      "Rateable Value \u00a317,000 \u2014 check empty rates liability if break exercised",
+      "L&T Act status not stated in brochure \u2014 confirm with agent"
     ],
-    "next_step": "Obtain full lease from agent (term, expiry, FRI/IRI, rent review). Confirm listed building surveyor report. If residual >3yr FRI, this is an exceptional covenant at >9% yield \u2014 pass to DD.",
-    "reject_reason": null
+    "next_step": "Key question: contact agent (David Brackenridge, BHT, 0113 244 9020) to establish whether Cash Access UK Ltd has indicated intent re Nov 2026 break. Banking Hubs are typically long-term commitments \u2014 LINK/CASH Access have been expanding, not contracting. If break risk acceptable, pass to DD skill. TOGC VAT treatment must be confirmed before exchange.",
+    "reject_reason": null,
+    "score_rationale": "Calibrated against file: beats Cheshunt (76, no break, medium covenant, EPC unknown) on yield (9.02 vs 8.65), covenant strength (strong confirmed vs medium), and EPC (C54 confirmed). Break at 2.5yr is the primary discount vs Cheshunt. Above Blackburn IVC (70, strong covenant, no break, but 8.0% yield). Score 77 reflects: confirmed 10yr FRI + strong covenant financials + EPC C + upwards-only OMV review, discounted by tenant break Nov 2026, Grade II listed, and TOGC VAT to confirm."
   },
   {
     "listing_id": "743556608939872",
