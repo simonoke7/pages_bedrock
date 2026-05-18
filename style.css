@@ -225,6 +225,39 @@ section {
   gap: 10px;
 }
 
+.card-top-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.info-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.info-icon--complete {
+  color: #16a34a;
+}
+
+.info-icon--incomplete {
+  color: #d97706;
+  transition: color .15s;
+}
+
+.info-icon--incomplete:hover {
+  color: #b45309;
+}
+
 .card-address {
   font-size: 13px;
   font-weight: 600;

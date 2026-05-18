@@ -55,6 +55,26 @@ function verdictBadge(verdict, score) {
   return `<span class="verdict-badge ${escHtml(verdict)}">${escHtml(verdict)}${scoreHtml}</span>`;
 }
 
+function infoIcon(complete, brochureUrl) {
+  if (complete) {
+    return `<span class="info-icon info-icon--complete" title="Information complete">
+      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8" cy="8" r="7" fill="currentColor" opacity=".15"/>
+        <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M5 8l2 2 4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>`;
+  }
+  return `<a class="info-icon info-icon--incomplete" href="${escHtml(brochureUrl)}" target="_blank" rel="noopener noreferrer" title="Information incomplete — view brochure">
+    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7" fill="currentColor" opacity=".12"/>
+      <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M8 5v3.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="8" cy="11" r=".75" fill="currentColor"/>
+    </svg>
+  </a>`;
+}
+
 function dataItem(key, val) {
   return `<div class="di"><span class="k">${key}</span><span class="v">${escHtml(fmtVal(val))}</span></div>`;
 }
@@ -105,7 +125,10 @@ function renderActiveCard(l) {
       <div class="card-address">
         <a href="${escHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escHtml(l.address)}</a>
       </div>
-      ${verdictBadge(l.verdict, l.score)}
+      <div class="card-top-right">
+        ${infoIcon(l.information_complete, l.brochure_url)}
+        ${verdictBadge(l.verdict, l.score)}
+      </div>
     </div>
     <div class="data-grid">${dataRows}</div>
     ${flagsBlock}
@@ -124,6 +147,7 @@ function renderRejectRow(l) {
     </div>
     <div class="reject-reason">${escHtml(l.reject_reason || '—')}</div>
   </div>
+  ${infoIcon(l.information_complete, l.brochure_url)}
 </div>`.trim();
 }
 
