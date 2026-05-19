@@ -97,22 +97,22 @@
       "notes": "Current lease ~2yr unexpired. New 15yr reversionary lease signed by tenant \u2014 no break clauses. Stepped rent mechanism in addition to reviews."
     },
     "tenant": {
-      "name": "Cloud 9 Beauty",
+      "name": "Cloud9 Beauty LND Limited (Co. 11954816)",
       "type": "local",
       "sector": "beauty salon",
-      "covenant_strength": "unknown",
-      "notes": "Independent beauty salon operator in SE1. Tenant has committed to 15yr reversionary lease without breaks \u2014 demonstrates occupational commitment. No financial information available."
+      "covenant_strength": "weak",
+      "notes": "Active Ltd Co incorporated Apr 2019, accounts filed to Apr 2024 on time. Two further Cloud9 entities at same address (Cloud9 Beauty Spa Ltd inc Jan 2024, Cloud9 Beauty Tower Bridge Ltd inc Dec 2025) suggesting expanding group. No filed financials available (micro entity). Single-site beauty salon \u2014 covenant remains weak but entity is active and filing.",
+      "company_number": "11954816"
     },
     "flags": [
-      "Covenant unknown \u2014 independent beauty salon, no verifiable balance sheet",
+      "Cloud9 Beauty LND Ltd (11954816) \u2014 active, filing on time, expanding multi-entity group; no filed financials (micro entity)",
       "Beauty salon use \u2014 specialist fit-out, restricts re-letting pool vs general Class E",
       "VAT applicable \u2014 TOGC treatment required; confirm with solicitors before exchange",
-      "Virtual freehold (999yr) \u2014 confirm lender appetite; most accept but some restrict",
-      "Reversionary lease: confirm lease is fully executed and unconditional before proceeding",
-      "OMV review at reversion commencement (~2027) \u2014 rent may adjust significantly if passing rent below market",
-      "Current passing rent \u00a322,000 \u2014 confirm stepped rent schedule and amounts"
+      "Virtual freehold (999yr) \u2014 confirm lender appetite",
+      "Reversionary lease: confirm fully executed and unconditional before proceeding",
+      "OMV review at reversion commencement (~2027) \u2014 rent may adjust if passing rent below market"
     ],
-    "next_step": "Identify and verify Cloud 9 Beauty (Companies House search). Confirm reversionary lease is fully executed \u2014 this is critical. Obtain stepped rent schedule. Confirm TOGC VAT treatment. Check lender appetite for 999yr virtual freehold in SE1. Contact Strettons: Finlay Milnes (07791 744289) or Sean Crowhurst (07791 849470).",
+    "next_step": "Covenant confirmed: Cloud9 Beauty LND Ltd (11954816), active, multi-entity. Confirm reversionary lease is fully executed \u2014 critical. Obtain stepped rent schedule. Confirm TOGC VAT treatment. Check lender appetite for 999yr virtual freehold SE1. Contact Strettons: Finlay Milnes (07791 744289) or Sean Crowhurst (07791 849470).",
     "reject_reason": null,
     "information_complete": true
   },
@@ -213,18 +213,20 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Rawling & Sons Opticians Ltd",
+      "name": "Rawling & Sons (Opticians) Limited (Co. 02862381)",
       "type": "regional",
       "sector": "optical retail",
       "covenant_strength": "medium",
-      "notes": "Established regional optician; not a national chain but long-standing practice"
+      "notes": "Active Ltd Co, inc Oct 1993 \u2014 31yr trading history. 8 directors, ~73 employees. Accounts filed to Dec 2024 on time. NatWest charges registered 2020 (outstanding). Last available financials (2019): total assets ~\u00a32m, EBITDA \u00a3107k. Established regional optician \u2014 medium covenant confirmed. Charges noted.",
+      "company_number": "02862381"
     },
     "flags": [
-      "Tenant-only break at year 8 (Jul 2033) \u2014 effective residual could be 8yrs",
+      "Tenant-only break at year 8 (Jul 2033) \u2014 7.1yrs from today; effective residual could be 8yrs",
       "VAT applicable \u2014 TOGC treatment required on purchase",
-      "Covenant medium not strong \u2014 verify trading history"
+      "Rawling & Sons (02862381): NatWest charges registered 2020, still outstanding \u2014 note for DD",
+      "Covenant medium confirmed: 31yr trading history, 8 directors, accounts filed to Dec 2024 on time"
     ],
-    "next_step": "Verify Rawling & Sons trading history and accounts. Confirm TOGC VAT treatment with solicitor. Pass to DD skill.",
+    "next_step": "Covenant verified: Rawling & Sons (02862381), active 31yr, accounts current, NatWest charges noted. Confirm TOGC VAT treatment with solicitor. Pass to DD skill.",
     "reject_reason": null,
     "information_complete": true
   },
@@ -234,7 +236,7 @@
     "url": "https://www.rightmove.co.uk/properties/741499847910752",
     "date_scraped": "2026-05-17",
     "verdict": "PROCEED",
-    "score": 71,
+    "score": 65,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -266,22 +268,25 @@
       "notes": "Flat 159A: 99yr lease from 29 Sep 2006 at \u00a3250pa ground rent; review every 25yr to 0.0515% OMV; reversion 2105."
     },
     "tenant": {
-      "name": "Duck Nail Studio Ltd",
+      "name": "Duck Nail Studio Ltd (Co. 16958491)",
       "type": "local",
       "sector": "beauty / nail salon",
       "covenant_strength": "weak",
-      "notes": "SME nail salon with personal guarantee; \u00a37,000 rent deposit held; single-site operator"
+      "notes": "Incorporated 12 Jan 2026 \u2014 only 4 months old at time of lease. Registered at 159 High Street Maldon (the subject property). First accounts not due until Oct 2027 \u2014 zero filed financial history. Personal guarantee is the only security. Covenant: weak confirmed.",
+      "company_number": "16958491"
     },
     "flags": [
-      "SME nail salon \u2014 weak covenant, personal guarantee only",
-      "Tenant break Feb 2031 (~4yrs) \u2014 key risk event",
+      "Duck Nail Studio Ltd (16958491) incorporated Jan 2026 \u2014 4 months old, zero filed financial history",
+      "Personal guarantee is sole security \u2014 no company balance sheet to assess",
+      "Tenant break Feb 2031 (4.7yrs) \u2014 key risk event",
       "Beauty/nail use limits re-letting pool vs general retail",
-      "L&T Act status not stated",
+      "L&T Act status not stated \u2014 confirm contracted in/out",
       "EPC not available \u2014 confirm before proceeding"
     ],
-    "next_step": "Pull Duck Nail Studio Ltd accounts from Companies House. Confirm L&T Act status and EPC rating. Stress test void scenario at break. Pass to DD skill if accounts show viable trading.",
+    "next_step": "Companies House confirmed: Duck Nail Studio Ltd (16958491) incorporated Jan 2026, no accounts filed. Personal guarantee is sole security. Negotiate increased rent deposit (currently \u00a37k \u2014 consider 6 months = \u00a314,125). Confirm EPC and L&T Act status. Pass to DD skill with enhanced security negotiation as condition.",
     "reject_reason": null,
-    "information_complete": true
+    "information_complete": true,
+    "score_rationale": "Rescored 71->65: Duck Nail Studio Ltd incorporated Jan 2026 \u2014 4 months old at lease commencement, zero filed financial history. Personal guarantee is sole security. Strong lease structure (FRI, 14.7yr residual, 8.07% yield) offsets confirmed weakest-possible covenant. Drops below Headingley/Blackburn (70, medium-strong covenants)."
   },
   {
     "listing_id": "168922670",
@@ -289,7 +294,7 @@
     "url": "https://www.rightmove.co.uk/properties/168922670",
     "date_scraped": "2026-05-16",
     "verdict": "MARGINAL",
-    "score": 60,
+    "score": 50,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -322,26 +327,27 @@
       "notes": "42B: lease dated 17 Sep 2021, expires 16 Sep 2026. 42C: lease dated 11 Feb 2022, expires 10 Feb 2027. No rent reviews in either lease."
     },
     "tenant": {
-      "name": "Twice Nice Ltd",
+      "name": "Twice Nice Ltd (Co. 13317600)",
       "type": "local",
       "sector": "office furniture retail",
-      "covenant_strength": "medium",
-      "notes": "Twice Nice Ltd, office furniture retailer (B8/Class E use). Directors personal sureties only \u2014 no balance sheet information. Both units to same tenant under separate leases."
+      "covenant_strength": "weak",
+      "notes": "Active Ltd Co, inc Apr 2021. ACCOUNTS OVERDUE \u2014 last filed to Sep 2022, next due Jun 2024 \u2014 over 2 years late. Confirmation statement also overdue. Registered at 42B Gloucester Road (subject property). Office furniture retailer. Overdue filings are a significant covenant warning \u2014 downgrade from medium to weak.",
+      "company_number": "13317600"
     },
     "flags": [
+      "ACCOUNTS OVERDUE 2+ years \u2014 Twice Nice Ltd last filed Sep 2022; serious covenant warning",
       "42B EXPIRES SEP 2026 \u2014 ~4 months residual; renewal negotiations must be underway or vacancy imminent",
       "42C EXPIRES FEB 2027 \u2014 ~9 months residual",
       "EPC E on 42C (123) \u2014 hard lender barrier; energy improvement works required before re-letting",
       "EPC D on 42B (112) \u2014 marginal; some lenders may restrict",
       "No rent reviews in either lease \u2014 rent frozen since 2021/2022",
-      "SME tenant with personal sureties only \u2014 no verified balance sheet",
       "VAT applicable \u2014 confirm TOGC treatment",
       "Multi-unit \u2014 management complexity; both to same tenant reduces diversification"
     ],
     "next_step": "Establish urgently: (1) whether 42B renewal negotiations are underway and on what terms; (2) EPC improvement cost for 42C to reach minimum E/D; (3) lender appetite for EPC D/E industrial in CR0. Only proceed if 42B renewal is in advanced negotiation and EPC improvement capex is factored into price. Contact HNF Property: 020 8681 2000.",
     "reject_reason": null,
     "information_complete": true,
-    "score_rationale": "Down from 67 (PROCEED to MARGINAL): EPC E on 42C (123) \u2014 hard lender barrier; will require energy improvement works before re-letting. 42B expires Sep 2026 (~4 months) with no renewal agreed at brochure date (Oct 2025). No rent reviews in either lease \u2014 rent frozen since 2021/2022. Retained at 60 not lower: FRI confirmed, contracted outside 1954 Act (both units), \u00a336k passing rent on freehold industrial, Croydon location with adequate industrial demand."
+    "score_rationale": "Rescored 60->50: Twice Nice Ltd accounts overdue 2+ years (last filed Sep 2022). Active warning sign \u2014 potential distress or non-compliance. Combined with 1.3yr residual, multi-unit complexity, directors sureties only. At MARGINAL floor \u2014 obtain current management accounts before any further action."
   },
   {
     "listing_id": "172621337",
@@ -461,8 +467,8 @@
     "address": "8 Linford Road, Chadwell St Mary, Essex, RM16 4JW",
     "url": "https://www.rightmove.co.uk/properties/174846905",
     "date_scraped": "2026-05-17",
-    "verdict": "MARGINAL",
-    "score": 61,
+    "verdict": "PROCEED",
+    "score": 68,
     "auction": true,
     "auction_date": "2026-05-21",
     "auction_max_bid": 375000,
@@ -493,11 +499,12 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "DP Realty Ltd t/a Domino's Pizza",
-      "type": "regional",
+      "name": "DP Realty Ltd t/a Dominos Pizza (Co. 02882513)",
+      "type": "national",
       "sector": "fast food franchise",
-      "covenant_strength": "medium",
-      "notes": "Dominos franchisee \u2014 medium covenant; not Dominos Corp directly; Thurrock Council vendor"
+      "covenant_strength": "strong",
+      "notes": "DP Realty Ltd is the Dominos Pizza Group plc property vehicle \u2014 wholly owned subsidiary of listed group. Turnover \u00a33.3m, net assets \u00a37.3m, accounts filed to Dec 2024 on time. Effectively national covenant \u2014 upgrade from regional/medium to national/strong.",
+      "company_number": "02882513"
     },
     "flags": [
       "URGENT: Auction 21 May 2026 \u2014 4 days away, legal pack review required immediately",
@@ -509,7 +516,8 @@
     ],
     "next_step": "URGENT: Access legal pack at bidx1.com immediately. Confirm guide price, tenure, FRI terms and break clause detail. Do not bid without legal pack review. Max bid \u00a3375,000.",
     "reject_reason": null,
-    "information_complete": true
+    "information_complete": true,
+    "score_rationale": "Rescored 61->68, MARGINAL->PROCEED: DP Realty Ltd confirmed as Dominos Pizza Group plc wholly-owned subsidiary \u2014 national covenant, net assets \u00a37.3m. Yield 7.5%, 11.6yr residual, break Jan 2033 (6.6yr). Weak location (Chadwell St Mary) and yield at lower end prevent higher score. Comparable to Cheshunt (68)."
   },
   {
     "listing_id": "170561060",
@@ -548,19 +556,21 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Mobile Screen Ltd",
+      "name": "Mobile Screen Ltd (Co. 10475841 \u2014 verify)",
       "type": "local",
       "sector": "phone repair / mobile retail",
       "covenant_strength": "weak",
-      "notes": "SME phone repair company; unknown balance sheet; sector has high failure rate"
+      "notes": "Active Ltd Co inc Nov 2016, accounts filed to Nov 2024 on time. Registered at 70 High Street Epsom \u2014 not Chertsey subject property. SIC 82990 (other business support) vs phone repair retail. May be correct entity trading as phone repair under different address. Accounts not publicly filed (micro entity). Covenant: weak \u2014 confirm entity identity with agent.",
+      "company_number": "10475841"
     },
     "flags": [
+      "Mobile Screen Ltd (10475841): registered at 70 High St Epsom \u2014 not subject property; confirm entity identity with agent",
       "SME phone repair tenant \u2014 weak covenant, high-risk sector",
-      "Tenant break Sep 2029 (~4.3yrs) \u2014 key risk event",
+      "Tenant break Sep 2029 (3.3yrs) \u2014 key risk event",
       "VAT applicable \u2014 TOGC treatment required on purchase",
       "EPC not stated \u2014 confirm before proceeding"
     ],
-    "next_step": "Pull Mobile Screen Ltd accounts from Companies House. Confirm VAT/TOGC position. Only proceed if tenant shows 3+ years profitable trading and accounts are healthy.",
+    "next_step": "Companies House found Mobile Screen Ltd (10475841) active and filing on time but registered at Epsom not Chertsey \u2014 confirm with agent this is the correct lessee entity. If confirmed, request last 2 years accounts. Confirm VAT/TOGC and EPC. Only proceed if entity identity confirmed and accounts show viable trading.",
     "reject_reason": null,
     "information_complete": true
   },
@@ -814,21 +824,22 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Octmarux Ltd t/a Kiddiecare",
+      "name": "Kiddiecare Nurseries Ltd t/a Kiddiecare (Co. 05162959)",
       "type": "regional",
       "sector": "childcare / nursery",
       "covenant_strength": "medium",
-      "notes": "7-unit nursery operator in area; not a national chain; \u00a311,250 rent deposit held"
+      "notes": "Kiddiecare Nurseries Ltd (05162959) confirmed Ofsted-registered at subject property (Unit 1 Vantage Building, High Point Village, Hayes). 11 registered childcare locations across West London/Middlesex. Active, accounts filed to Mar 2024. Government-funded childcare operator. Medium covenant confirmed \u2014 11-site regional operator with regulatory oversight. Note: lease is to Octmarux Ltd (06302106) \u2014 confirm relationship between Octmarux and Kiddiecare Nurseries Ltd.",
+      "company_number": "05162959"
     },
     "flags": [
-      "Tenant break Apr 2027 (~11 months) \u2014 effective residual could be under 1 year",
+      "Tenant break Apr 2027 (0.9yrs / ~11 months) \u2014 URGENT: establish non-exercise intent",
+      "Lease entity is Octmarux Ltd \u2014 confirm relationship to Kiddiecare Nurseries Ltd (05162959)",
+      "Kiddiecare Nurseries Ltd (05162959): 11-site Ofsted-registered operator confirmed at subject property",
       "VAT applicable \u2014 TOGC or VAT registration required on purchase",
       "Nursery/specialist use \u2014 restricts lender pool and re-letting optionality",
-      "If break not exercised: 4 months rent-free cost to landlord (~\u00a39,833)",
-      "Tenant pays business rates and service charge \u2014 no landlord service charge liability (positive)",
-      "Brochure dated 12 May 2026 \u2014 break 11 months away, no non-exercise confirmation obtained"
+      "If break not exercised: 4 months rent-free cost to landlord (~\u00a39,833)"
     ],
-    "next_step": "Establish whether Kiddiecare intends to exercise break. Only proceed if written confirmation of non-exercise obtained, or price negotiated to reflect near-term vacancy risk.",
+    "next_step": "URGENT: Establish whether Kiddiecare intends to exercise Apr 2027 break \u2014 only 11 months away. Confirm Octmarux Ltd (lessee) is the same group as Kiddiecare Nurseries Ltd (05162959). Only proceed with written non-exercise confirmation and confirmed entity relationship.",
     "reject_reason": null,
     "information_complete": true
   },
@@ -4995,7 +5006,7 @@
     "url": "https://www.rightmove.co.uk/properties/170223119",
     "date_scraped": "2026-05-18",
     "verdict": "PROCEED",
-    "score": 69,
+    "score": 71,
     "auction": false,
     "auction_date": null,
     "auction_max_bid": null,
@@ -5025,23 +5036,24 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Oldbury and Cruickshank Optometrists Ltd t/a Bayfields",
+      "name": "Bayfields Y Ltd t/a Oldbury & Cruickshank Optometrists (Bayfields Group, Co. 08355043)",
       "type": "regional",
       "sector": "optical retail",
-      "covenant_strength": "medium",
-      "notes": "50+ stores nationwide, established operator, long-standing tenancy since 2015"
+      "covenant_strength": "medium-strong",
+      "notes": "Trading entity Bayfields Y Ltd, subsidiary of Bayfields Group Ltd (08355043). Bayfields acquired Oldbury & Cruickshank (via Prism Partnership Ltd) in 2022. 40+ practice Yorkshire-based opticians group, actively expanding via acquisition. NHS contractor. Upgrade from medium to medium-strong \u2014 well-capitalised regional chain with institutional backing.",
+      "company_number": "08355043"
     },
     "flags": [
-      "4.2yr residual \u2014 re-letting risk post Jul 2030",
+      "4.1yr residual to Jul 2030 \u2014 re-letting risk; Bayfields expanding acquirer, renewal likely",
       "Optician use restricts re-letting pool vs general Class E",
-      "No rent review detail stated \u2014 confirm OMV vs passing",
-      "Rent review provisions not stated in brochure \u2014 10yr occupation with no review mention is a concern; confirm with agent",
-      "L&T Act status not stated \u2014 confirm contracted in/out"
+      "Rent review provisions not confirmed \u2014 10yr occupation, verify with agent",
+      "L&T Act status not stated \u2014 confirm contracted in/out",
+      "Bayfields Group (08355043): 40+ practice chain, NHS contractor, actively acquiring \u2014 renewal probability high"
     ],
-    "next_step": "Confirm rent review history and OMV. Establish whether Bayfields intends to renew (likely given patient base). Confirm VAT and EPC. Pass to DD skill.",
+    "next_step": "Covenant confirmed: Bayfields Y Ltd, subsidiary of Bayfields Group (08355043), 40+ practice NHS chain. Contact agent to establish renewal intent \u2014 Bayfields expansion trajectory makes renewal probable. Confirm rent review history and OMV. Confirm VAT and EPC. Pass to DD skill.",
     "reject_reason": null,
     "image_url": "https://media.rightmove.co.uk/property-photo/15562e6e3/170223119/15562e6e39d0ac0f13f3d3b430540736.jpeg",
-    "score_rationale": "Up from 67: EPC B confirmed (best in PROCEED file, removes lender concern entirely) and VAT not applicable (simpler purchase, no TOGC risk). Held at 69 not higher: covenant still medium (50+ store regional optician, no financial detail confirmed) \u2014 weaker than Leeds Zenzero (Experian 83) despite better EPC/VAT. 4.2yr residual to Jul 2030 remains binding constraint. Rent review provisions absent from brochure despite 10yr of occupation \u2014 flag to clarify.",
+    "score_rationale": "Rescored 69->71: Bayfields confirmed as 40+ practice NHS-contracted regional chain (medium-strong covenant), acquired Oldbury & Cruickshank 2022. 8.87% yield with no break clause. Short 4.1yr residual tempered by expanding acquirer likely to renew. Draws level with Maldon (now 65 post-Duck downgrade).",
     "information_complete": true
   },
   {
