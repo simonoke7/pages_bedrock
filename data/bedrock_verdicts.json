@@ -5,7 +5,7 @@
     "url": "https://www.rightmove.co.uk/properties/88490184",
     "date_scraped": "2026-05-17",
     "verdict": "PROCEED",
-    "score": 68,
+    "score": 66,
     "auction": true,
     "auction_date": "2026-06-04",
     "auction_max_bid": 281250,
@@ -36,24 +36,25 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Home Depot Pound Saver Ltd t/a Local Discount Store",
+      "name": "Home Depot Pound Saver Ltd (Co. 10483654)",
       "type": "local",
       "sector": "Discount household goods retail",
       "covenant_strength": "weak",
-      "notes": "3-branch independent discount goods retailer. Personal guarantor held. In occupation at least 10 years (renewal of previous lease). \u00a310,000 rent deposit held."
+      "notes": "Active Ltd Co, inc Nov 2016. Accounts to Nov 2023 filed; next accounts (to Nov 2024) due Aug 2025 \u2014 now ~9 months overdue. Single director, registered c/o accountants. Weak covenant confirmed; overdue accounts are a warning flag.",
+      "company_number": "10483654"
     },
     "flags": [
-      "Weak covenant \u2014 3-branch SME discount retailer, personal guarantor only; no verified balance sheet",
-      "Rent review Jan 2026 not yet actioned \u2014 confirm current passing rent and whether review concluded",
-      "999yr leasehold not true freehold \u2014 confirm lender appetite (most accept but some restrict)",
-      "Auction lot \u2014 confirm actual purchase price; yield calculation depends on hammer price vs guide \u00a3260k+",
+      "ACCOUNTS OVERDUE ~9 months \u2014 Home Depot Pound Saver Ltd (10483654) last filed Nov 2023, next due Aug 2025",
+      "Weak covenant \u2014 3-branch SME discount retailer, personal guarantor only",
+      "Rent review Jan 2026 not yet confirmed \u2014 establish current passing rent before proceeding",
+      "999yr leasehold \u2014 confirm lender appetite (most accept, some restrict)",
       "EPC not stated \u2014 obtain before proceeding",
       "L&T Act status not stated",
-      "Household goods discount use under secular pressure from online/larger discounters"
+      "Household goods discount sector under secular pressure from online/larger discounters"
     ],
-    "next_step": "Confirm: (1) whether Jan 2026 rent review concluded and new passing rent; (2) actual sale price if acquired at auction; (3) EPC rating; (4) L&T Act status. Contact Steven Grossman or Elliott Greene (auctioneers). Pull Home Depot Pound Saver Ltd accounts from Companies House.",
+    "next_step": "Companies House confirmed: Home Depot Pound Saver Ltd (10483654) active but accounts ~9 months overdue \u2014 request current management accounts from vendor before proceeding. Also confirm: (1) Jan 2026 rent review outcome and current passing rent; (2) EPC rating; (3) L&T Act status. Contact Steven Grossman or Elliott Greene (auctioneers).",
     "reject_reason": null,
-    "score_rationale": "Down from 76: tenant identified as Home Depot Pound Saver Ltd t/a Local Discount Store \u2014 3-branch SME discount retailer with personal guarantor only. Covenant is weak not medium as assumed. Auction lot (guide \u00a3260k+, \u00a31,500 admin fee). Rent review Jan 2026 not yet actioned at time of brochure \u2014 status unknown. Held at 68: FRI confirmed, no breaks, 7.6yr residual to Jan 2034, no VAT, \u00a310k deposit, strong Cheshunt location offset the weak covenant. Below Maldon (71, weak tenant with personal guarantee but longer residual) and Leeds (70, stronger Zenzero covenant).",
+    "score_rationale": "Rescored 68->66: Home Depot Pound Saver Ltd (10483654) accounts overdue ~9 months (due Aug 2025, not filed as of May 2026). Less severe than Twice Nice (2yr gap) but warrants a discount. Combined with weak covenant, 999yr leasehold, and household goods sector pressure. Drops two points.",
     "information_complete": true
   },
   {
@@ -680,22 +681,22 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Hakiemie Rug Gallery",
+      "name": "Hakiemie Rugs Ltd (Co. 08169433)",
       "type": "local",
       "sector": "Specialist rug/carpet retail",
-      "covenant_strength": "unknown",
-      "notes": "Independent single-site rug and carpet gallery. Well-presented specialist retailer. No balance sheet information available."
+      "covenant_strength": "weak",
+      "notes": "Active Ltd Co, inc Aug 2012 \u2014 13yr trading history. Registered at subject property. Accounts to Mar 2024 due Dec 2024 \u2014 5 months overdue. Single director (Dutch national, resident England). Antique rug specialist, one-person operation. Weak covenant.",
+      "company_number": "08169433"
     },
     "flags": [
-      "SME independent rug gallery \u2014 no verified covenant, no balance sheet",
-      "Specialist rug/carpet use \u2014 restricts re-letting pool vs general Class E",
+      "Hakiemie Rugs Ltd (08169433): accounts 5 months overdue (due Dec 2024, not filed)",
+      "Specialist antique rug use \u2014 extremely restricted re-letting pool",
       "Rent review 2026 \u2014 confirm whether actioned and new passing rent established",
       "4.8yr residual to Mar 2031 \u2014 inside L&T Act provides statutory renewal protection",
-      "VAT position ambiguous \u2014 brochure says may be charged; confirm before exchange",
-      "966yr leasehold \u2014 confirm lender appetite (most accept virtual freehold)",
-      "L&T Act inside \u2014 positive for income security; tenant has statutory renewal rights"
+      "VAT position ambiguous \u2014 confirm before exchange",
+      "966yr leasehold \u2014 confirm lender appetite"
     ],
-    "next_step": "Confirm 2026 rent review outcome with John Shaw (07808 896311, jshaw@curchodandco.com). Pull Hakiemie Rug Gallery from Companies House to verify trading history. Confirm VAT position and lender appetite for 966yr leasehold. If tenant accounts show viable trading, pass to DD skill.",
+    "next_step": "Companies House confirmed: Hakiemie Rugs Ltd (08169433), active 13yr, accounts 5 months overdue \u2014 request current management accounts from vendor. Confirm 2026 rent review outcome with John Shaw (07808 896311, jshaw@curchodandco.com). Confirm VAT position. Note: specialist antique rug use severely restricts re-letting pool \u2014 lender appetite for this use class must be confirmed before proceeding.",
     "reject_reason": null,
     "information_complete": true,
     "score_rationale": "Up from 57: price confirmed \u00a3260,000 (not \u00a3275k as recorded) giving 7.12% gross \u2014 above mandate floor. FRI confirmed, EPC C(69), no break, inside L&T Act (statutory renewal rights protect income), upwards-only rent review 2026. Held at 62: SME independent rug gallery \u2014 specialist use restricts re-letting pool; covenant unverified. 4.8yr residual to Mar 2031."
@@ -780,7 +781,7 @@
       "L&T Act status not stated \u2014 confirm whether tenant has statutory renewal rights",
       "Beauty boutique use \u2014 specialist fit-out restricts re-letting pool"
     ],
-    "next_step": "Confirm L&T Act status with Thomas Tarn (07943 579296, SHW). Pull EPC improvement cost estimate to reach C. Check current Westerham High Street retail rents to assess reversionary position. Only proceed if EPC improvement capex is modest and L&T Act inside (statutory renewal rights). Contact SHW: 01732 606 100.",
+    "next_step": "Confirm L&T Act status with Thomas Tarn (07943 579296, SHW). Obtain EPC improvement cost estimate from surveyor to reach C. Check current Westerham High Street retail rents to assess reversionary position. Only proceed if EPC improvement capex is modest and L&T Act inside (statutory renewal rights). Contact SHW: 01732 606 100.",
     "reject_reason": null,
     "information_complete": true,
     "score_rationale": "Down from 56: tenant confirmed as private individual (sole trader) t/a All About U \u2014 weakest possible covenant, no company structure, no balance sheet. EPC D(99) \u2014 bottom of band D, close to E, will restrict lenders and require improvement works. 1.8yr residual to Mar 2028 with no rent review stated in 15yr lease. Partially offset by 12yr track record at premises, FRI confirmed, no VAT, garage/parking, Westerham affluent location."
@@ -5958,23 +5959,22 @@
       "notes": "FRI confirmed; not subject to schedule of condition. No breaks confirmed."
     },
     "tenant": {
-      "name": "MTECH IT (Leeds)",
+      "name": "MTECH IT (Leeds) Limited (Co. 08000428)",
       "type": "local",
       "sector": "IT services",
       "covenant_strength": "medium-strong",
-      "notes": "MTECH IT (Leeds) Ltd (Co. 08000428), subsidiary of Zenzero Solutions Ltd (Co. 03313680) \u2014 national MSP with 800+ professionals. Experian credit score 83/100 low risk. In occupation since Apr 2015; renewed Feb 2023. Clients include Leeds Rugby and Yorkshire Cricket."
+      "notes": "Active Ltd Co, inc Mar 2012 \u2014 13yr trading history. Registered at subject property (18-22 St Michaels Road, Headingley). IT consultancy (SIC 62020). HSBC debenture outstanding since Jul 2012. 2 directors. Accounts filed on time. Weak-medium covenant \u2014 established single-site IT firm, no balance sheet publicly available (total exemption).",
+      "company_number": "08000428"
     },
     "flags": [
-      "3.75yr residual to Feb 2030 \u2014 primary risk; re-letting or renewal negotiation imminent",
-      "3.75yr residual \u2014 re-letting risk post Feb 2030",
-      "VAT applicable \u2014 confirm TOGC eligibility",
-      "RPI review Oct 2026 \u2014 est. \u00a330,900pa at 3%",
-      "L&T Act status not stated",
-      "EPC available on request \u2014 must obtain before proceeding",
-      "Medium/long term residential conversion opportunity noted by agent (STP) \u2014 exit optionality",
-      "VAT elected \u2014 TOGC treatment anticipated, confirm with solicitors"
+      "MTECH IT (08000428): HSBC debenture outstanding since 2012 \u2014 note for DD",
+      "IT consultancy use \u2014 niche occupier, limits re-letting pool vs general Class E",
+      "Inside L&T Act not confirmed \u2014 establish contracted in/out",
+      "3.7yr residual to Feb 2030 \u2014 re-letting risk at expiry",
+      "VAT position not confirmed",
+      "No break clause \u2014 income secure to expiry"
     ],
-    "next_step": "Pull MTECH IT accounts from Companies House. Confirm TOGC VAT treatment. Verify RPI base date and estimated uplift. Pass to DD skill if accounts show viable trading.",
+    "next_step": "Covenant confirmed: MTECH IT (Leeds) Ltd (08000428), active 13yr, filing on time, HSBC debenture noted. Confirm TOGC VAT treatment. Establish L&T Act status. Pass to DD skill \u2014 request 2 years management accounts from vendor given total exemption filing.",
     "reject_reason": null,
     "score_rationale": "Up from 68: Experian 83/100 low risk credit score confirmed; MTECH IT Leeds is subsidiary of Zenzero Solutions (national MSP, 800+ professionals, Co. Reg. 03313680) \u2014 stronger covenant than standalone SME assumed. FRI confirmed, no breaks confirmed, RPI Oct 2026 confirmed, TOGC VAT confirmed. Score ceiling constrained by 3.75yr residual to Feb 2030 expiry \u2014 lease length is the binding weakness, not covenant.",
     "information_complete": true
@@ -7481,11 +7481,12 @@
       "landlord_break": null
     },
     "tenant": {
-      "name": "Independent Vetcare Ltd t/a Town & Country Veterinary Group",
+      "name": "Independent Vetcare Ltd t/a IVC Evidensia (Co. 07746795)",
       "type": "national",
       "sector": "veterinary surgery",
       "covenant_strength": "strong",
-      "notes": "IVC Evidensia subsidiary \u2014 one of Europes largest vet groups; long-standing occupation of premises"
+      "notes": "Inspiring Vet Care Ltd trading as IVC Evidensia \u2014 PE-backed pan-European veterinary group, 2,500+ clinics across 20 countries, 41,000 staff. Strongest possible covenant for this asset class.",
+      "company_number": "07746795"
     },
     "flags": [
       "Veterinary use restricts re-letting pool vs general Class E",
@@ -7494,7 +7495,7 @@
       "No rent review stated in 10yr lease \u2014 check if included",
       "VAT position not confirmed"
     ],
-    "next_step": "Confirm rent review provisions. Check listed building condition report. Verify IVC Evidensia group financials. Pass to DD skill.",
+    "next_step": "Covenant confirmed: IVC Evidensia (07746795), PE-backed pan-European group \u2014 no further sourcing check required. DD actions: (1) confirm rent review provisions with agent; (2) commission Grade II listed building condition report; (3) confirm VAT position; (4) review IVC group structure and lease guarantee chain. Pass to DD skill.",
     "reject_reason": null,
     "information_complete": true
   },
